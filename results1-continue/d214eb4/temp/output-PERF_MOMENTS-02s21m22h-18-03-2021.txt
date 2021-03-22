@@ -1,0 +1,185 @@
+[999D[KFAIL src/test/PERF_MOMENTS.test.ts (445.564s)
+  PERF_LOAD_IMAGE
+    for "HD163296_CO_2_1.fits"
+      ✓ CARTA is ready & Send a Session: (9ms)
+      Go to "set_QA_performance/cube_B" folder
+        open the file "set_QA_performance/cube_B/HD163296_CO_2_1.fits"
+          ✓ (Step 1)"HD163296_CO_2_1.fits" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 5000 ms (41ms)
+          ✓ (Step 2)"HD163296_CO_2_1.fits" Set region, the responses should arrive within 5000 ms (405ms)
+      Moment generator
+        ✓ (Step 3)"HD163296_CO_2_1.fits": Receive a series of moment progress within 400000ms (3645ms)
+        ✓ Receive 13 REGION_HISTOGRAM_DATA
+        ✓ Assert MomentResponse.success = true (1ms)
+        ✓ Assert MomentResponse.openFileAcks.length = 13
+        ✓ Assert all MomentResponse.openFileAcks[].success = true (1ms)
+        ✓ Assert all openFileAcks[].fileId > 0 (1ms)
+        ✓ Assert openFileAcks[].fileInfo.name (1ms)
+      Requset moment image
+        ✓ (Step 4)"HD163296_CO_2_1.fits": Receive all image data until RasterTileSync.endSync = true, within 5000ms (21ms)
+        ✓ Assert RASTER_TILE_SYNC.fileId (1ms)
+        ✓ Receive RASTER_TILE_DATA
+        ✓ Assert RASTER_TILE_DATA.fileId
+    for "HD163296_CO_2_1.image"
+      ✓ CARTA is ready & Send a Session: (2ms)
+      Go to "set_QA_performance/cube_B" folder
+        open the file "set_QA_performance/cube_B/HD163296_CO_2_1.image"
+          ✓ (Step 1)"HD163296_CO_2_1.image" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 5000 ms (36ms)
+          ✓ (Step 2)"HD163296_CO_2_1.image" Set region, the responses should arrive within 5000 ms (535ms)
+      Moment generator
+        ✓ (Step 3)"HD163296_CO_2_1.image": Receive a series of moment progress within 400000ms (3496ms)
+        ✓ Receive 13 REGION_HISTOGRAM_DATA (1ms)
+        ✓ Assert MomentResponse.success = true
+        ✓ Assert MomentResponse.openFileAcks.length = 13
+        ✓ Assert all MomentResponse.openFileAcks[].success = true (2ms)
+        ✓ Assert all openFileAcks[].fileId > 0 (1ms)
+        ✓ Assert openFileAcks[].fileInfo.name (1ms)
+      Requset moment image
+        ✓ (Step 4)"HD163296_CO_2_1.image": Receive all image data until RasterTileSync.endSync = true, within 5000ms (20ms)
+        ✓ Assert RASTER_TILE_SYNC.fileId
+        ✓ Receive RASTER_TILE_DATA
+        ✓ Assert RASTER_TILE_DATA.fileId
+    for "HD163296_CO_2_1.hdf5"
+      ✓ CARTA is ready & Send a Session: (5ms)
+      Go to "set_QA_performance/cube_B" folder
+        open the file "set_QA_performance/cube_B/HD163296_CO_2_1.hdf5"
+          ✓ (Step 1)"HD163296_CO_2_1.hdf5" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 5000 ms (92ms)
+          ✕ (Step 2)"HD163296_CO_2_1.hdf5" Set region, the responses should arrive within 5000 ms (5002ms)
+      Moment generator
+        ✕ (Step 3)"HD163296_CO_2_1.hdf5": Receive a series of moment progress within 400000ms (400001ms)
+        ✕ Receive 13 REGION_HISTOGRAM_DATA (5ms)
+        ✕ Assert MomentResponse.success = true
+        ✕ Assert MomentResponse.openFileAcks.length = 13
+        ✕ Assert all MomentResponse.openFileAcks[].success = true
+        ✕ Assert all openFileAcks[].fileId > 0
+        ✕ Assert openFileAcks[].fileInfo.name
+      Requset moment image
+        ✓ (Step 4)"HD163296_CO_2_1.hdf5": Receive all image data until RasterTileSync.endSync = true, within 5000ms
+        ✓ Assert RASTER_TILE_SYNC.fileId
+        ✓ Receive RASTER_TILE_DATA
+        ✓ Assert RASTER_TILE_DATA.fileId
+
+  ● PERF_LOAD_IMAGE › for "HD163296_CO_2_1.hdf5" › Go to "set_QA_performance/cube_B" folder › open the file "set_QA_performance/cube_B/HD163296_CO_2_1.hdf5" › (Step 2)"HD163296_CO_2_1.hdf5" Set region, the responses should arrive within 5000 ms
+
+    : Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error:
+
+      116 |     
+      117 |                     let ack: AckStream;
+    > 118 |                     test(`(Step 2)"${assertItem.openFile[key].file}" Set region, the responses should arrive within ${regionTimeout} ms`, async () => {
+          |                     ^
+      119 |                         await Connection.send(CARTA.SetRegion, assertItem.setRegion);
+      120 |                         await Connection.send(CARTA.SetSpectralRequirements, assertItem.setSpectralRequirements);
+      121 |                         let temp = await Connection.receive(CARTA.SetRegionAck);
+
+      at new Spec (node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Suite.describe (src/test/PERF_MOMENTS.test.ts:118:21)
+
+  ● PERF_LOAD_IMAGE › for "HD163296_CO_2_1.hdf5" › Moment generator › (Step 3)"HD163296_CO_2_1.hdf5": Receive a series of moment progress within 400000ms
+
+    : Timeout - Async callback was not invoked within the 400000ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 400000ms timeout specified by jest.setTimeout.Error:
+
+      131 |             describe(`Moment generator`, () => {
+      132 |                 let ack: AckStream;
+    > 133 |                 test(`(Step 3)"${assertItem.openFile[key].file}": Receive a series of moment progress within ${momentTimeout}ms`, async () => {
+          |                 ^
+      134 |                     await sleep(sleepTimeout);
+      135 |                     await Connection.send(CARTA.MomentRequest, assertItem.momentRequest);
+      136 |                     ack = await Connection.streamUntil(type => type == CARTA.MomentResponse);
+
+      at new Spec (node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Suite.describe (src/test/PERF_MOMENTS.test.ts:133:17)
+
+  ● PERF_LOAD_IMAGE › for "HD163296_CO_2_1.hdf5" › Moment generator › Receive 13 REGION_HISTOGRAM_DATA
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 13
+    Received: 0
+
+      141 |
+      142 |                 test(`Receive ${assertItem.momentRequest.moments.length} REGION_HISTOGRAM_DATA`,()=>{
+    > 143 |                     expect(FileId.length).toEqual(assertItem.momentRequest.moments.length);
+          |                                           ^
+      144 |                 });
+      145 |
+      146 |                 test(`Assert MomentResponse.success = true`,()=>{
+
+      at Object.test (src/test/PERF_MOMENTS.test.ts:143:43)
+
+  ● PERF_LOAD_IMAGE › for "HD163296_CO_2_1.hdf5" › Moment generator › Assert MomentResponse.success = true
+
+    TypeError: Cannot read property 'MomentResponse' of undefined
+
+      145 |
+      146 |                 test(`Assert MomentResponse.success = true`,()=>{
+    > 147 |                     expect(ack.MomentResponse[0].success).toBe(true);
+          |                                ^
+      148 |                 });
+      149 |
+      150 |                 test(`Assert MomentResponse.openFileAcks.length = ${assertItem.momentRequest.moments.length}`,()=>{
+
+      at Object.test (src/test/PERF_MOMENTS.test.ts:147:32)
+
+  ● PERF_LOAD_IMAGE › for "HD163296_CO_2_1.hdf5" › Moment generator › Assert MomentResponse.openFileAcks.length = 13
+
+    TypeError: Cannot read property 'MomentResponse' of undefined
+
+      149 |
+      150 |                 test(`Assert MomentResponse.openFileAcks.length = ${assertItem.momentRequest.moments.length}`,()=>{
+    > 151 |                     expect(ack.MomentResponse[0].openFileAcks.length).toEqual(assertItem.momentRequest.moments.length);
+          |                                ^
+      152 |                 });
+      153 |
+      154 |                 test(`Assert all MomentResponse.openFileAcks[].success = true`,()=>{
+
+      at Object.test (src/test/PERF_MOMENTS.test.ts:151:32)
+
+  ● PERF_LOAD_IMAGE › for "HD163296_CO_2_1.hdf5" › Moment generator › Assert all MomentResponse.openFileAcks[].success = true
+
+    TypeError: Cannot read property 'MomentResponse' of undefined
+
+      153 |
+      154 |                 test(`Assert all MomentResponse.openFileAcks[].success = true`,()=>{
+    > 155 |                     ack.MomentResponse[0].openFileAcks.map(ack => {
+          |                         ^
+      156 |                         expect(ack.success).toBe(true);
+      157 |                     });
+      158 |                 });
+
+      at Object.test (src/test/PERF_MOMENTS.test.ts:155:25)
+
+  ● PERF_LOAD_IMAGE › for "HD163296_CO_2_1.hdf5" › Moment generator › Assert all openFileAcks[].fileId > 0
+
+    TypeError: Cannot read property 'MomentResponse' of undefined
+
+      159 |
+      160 |                 test(`Assert all openFileAcks[].fileId > 0`,()=>{
+    > 161 |                     ack.MomentResponse[0].openFileAcks.map(ack => {
+          |                         ^
+      162 |                         expect(ack.fileId).toBeGreaterThan(0);
+      163 |                     });
+      164 |                 });
+
+      at Object.test (src/test/PERF_MOMENTS.test.ts:161:25)
+
+  ● PERF_LOAD_IMAGE › for "HD163296_CO_2_1.hdf5" › Moment generator › Assert openFileAcks[].fileInfo.name
+
+    TypeError: Cannot read property 'MomentResponse' of undefined
+
+      165 |
+      166 |                 test(`Assert openFileAcks[].fileInfo.name`,()=>{
+    > 167 |                     ack.MomentResponse[0].openFileAcks.map((ack,index)=>{
+          |                         ^
+      168 |                         expect(ack.fileInfo.name).toEqual(assertItem.openFile[key].file + ".moment." + momentName[index])
+      169 |                     });
+      170 |                 });
+
+      at Object.test (src/test/PERF_MOMENTS.test.ts:167:25)
+
+[999D[KTest Suites: 1 failed, 1 total
+Tests:       8 failed, 34 passed, 42 total
+Snapshots:   0 total
+Time:        445.591s
+Ran all test suites matching /PERF_MOMENTS.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Test failed.  See above for more details.
+[0m

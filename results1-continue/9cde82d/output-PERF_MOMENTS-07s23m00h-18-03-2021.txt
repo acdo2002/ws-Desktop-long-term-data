@@ -1,0 +1,66 @@
+[999D[KPASS src/test/PERF_MOMENTS.test.ts (45.739s)
+  PERF_LOAD_IMAGE
+    for "HD163296_CO_2_1.fits"
+      ✓ CARTA is ready & Send a Session: (10ms)
+      Go to "set_QA_performance/cube_B" folder
+        open the file "set_QA_performance/cube_B/HD163296_CO_2_1.fits"
+          ✓ (Step 1)"HD163296_CO_2_1.fits" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 5000 ms (65ms)
+          ✓ (Step 2)"HD163296_CO_2_1.fits" Set region, the responses should arrive within 5000 ms (403ms)
+      Moment generator
+        ✓ (Step 3)"HD163296_CO_2_1.fits": Receive a series of moment progress within 400000ms (3639ms)
+        ✓ Receive 13 REGION_HISTOGRAM_DATA
+        ✓ Assert MomentResponse.success = true (1ms)
+        ✓ Assert MomentResponse.openFileAcks.length = 13
+        ✓ Assert all MomentResponse.openFileAcks[].success = true (1ms)
+        ✓ Assert all openFileAcks[].fileId > 0 (2ms)
+        ✓ Assert openFileAcks[].fileInfo.name (1ms)
+      Requset moment image
+        ✓ (Step 4)"HD163296_CO_2_1.fits": Receive all image data until RasterTileSync.endSync = true, within 5000ms (22ms)
+        ✓ Assert RASTER_TILE_SYNC.fileId (1ms)
+        ✓ Receive RASTER_TILE_DATA
+        ✓ Assert RASTER_TILE_DATA.fileId (1ms)
+    for "HD163296_CO_2_1.image"
+      ✓ CARTA is ready & Send a Session: (4ms)
+      Go to "set_QA_performance/cube_B" folder
+        open the file "set_QA_performance/cube_B/HD163296_CO_2_1.image"
+          ✓ (Step 1)"HD163296_CO_2_1.image" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 5000 ms (53ms)
+          ✓ (Step 2)"HD163296_CO_2_1.image" Set region, the responses should arrive within 5000 ms (535ms)
+      Moment generator
+        ✓ (Step 3)"HD163296_CO_2_1.image": Receive a series of moment progress within 400000ms (3452ms)
+        ✓ Receive 13 REGION_HISTOGRAM_DATA (1ms)
+        ✓ Assert MomentResponse.success = true
+        ✓ Assert MomentResponse.openFileAcks.length = 13
+        ✓ Assert all MomentResponse.openFileAcks[].success = true (3ms)
+        ✓ Assert all openFileAcks[].fileId > 0 (2ms)
+        ✓ Assert openFileAcks[].fileInfo.name (1ms)
+      Requset moment image
+        ✓ (Step 4)"HD163296_CO_2_1.image": Receive all image data until RasterTileSync.endSync = true, within 5000ms (19ms)
+        ✓ Assert RASTER_TILE_SYNC.fileId (1ms)
+        ✓ Receive RASTER_TILE_DATA
+        ✓ Assert RASTER_TILE_DATA.fileId
+    for "HD163296_CO_2_1.hdf5"
+      ✓ CARTA is ready & Send a Session: (5ms)
+      Go to "set_QA_performance/cube_B" folder
+        open the file "set_QA_performance/cube_B/HD163296_CO_2_1.hdf5"
+          ✓ (Step 1)"HD163296_CO_2_1.hdf5" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 5000 ms (107ms)
+          ✓ (Step 2)"HD163296_CO_2_1.hdf5" Set region, the responses should arrive within 5000 ms (1333ms)
+      Moment generator
+        ✓ (Step 3)"HD163296_CO_2_1.hdf5": Receive a series of moment progress within 400000ms (3813ms)
+        ✓ Receive 13 REGION_HISTOGRAM_DATA
+        ✓ Assert MomentResponse.success = true
+        ✓ Assert MomentResponse.openFileAcks.length = 13
+        ✓ Assert all MomentResponse.openFileAcks[].success = true (1ms)
+        ✓ Assert all openFileAcks[].fileId > 0 (1ms)
+        ✓ Assert openFileAcks[].fileInfo.name (1ms)
+      Requset moment image
+        ✓ (Step 4)"HD163296_CO_2_1.hdf5": Receive all image data until RasterTileSync.endSync = true, within 5000ms (19ms)
+        ✓ Assert RASTER_TILE_SYNC.fileId (1ms)
+        ✓ Receive RASTER_TILE_DATA
+        ✓ Assert RASTER_TILE_DATA.fileId (1ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       42 passed, 42 total
+Snapshots:   0 total
+Time:        45.768s
+Ran all test suites matching /PERF_MOMENTS.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

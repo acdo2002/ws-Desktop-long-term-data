@@ -1,0 +1,18 @@
+[2021-03-20 15:39:08.309] [info] Writing to the log file: /home/mingyi/.carta/log/carta.log
+[2021-03-20 15:39:08.325] [info] /home/mingyi/carta-backend-dev/e917248/carta-backend/build/carta_backend: Version 2.0.0-dev.21.02.09
+[2021-03-20 15:39:08.352] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-03-20 15:39:27.580] [debug] 0x562a3fbac010 ::Session (1)
+[2021-03-20 15:39:27.580] [info] Session 1 [127.0.0.1] Connected. Num sessions: 1
+Keyword Error:  name = EXTEND of type  LONG  and value 1
+	Keyword value has wrong data type.
+[2021-03-20 15:39:27.682] [trace] Load 1600x1600 image to cache in 46.641 ms at 54.88733 MPix/s
+[2021-03-20 15:39:27.751] [warning] Session 1: Image has no beam information.
+[2021-03-20 15:39:27.756] [trace] Fill spatial profile in 0 ms
+[2021-03-20 15:39:27.756] [trace] Fill spatial profile in 0.033 ms
+[2021-03-20 15:39:27.758] [trace] Mean filter 1600x1600 raster data to 200x200 in 1.079 ms at 37.07136 MPix/s
+[2021-03-20 15:39:27.758] [trace] Compress 200x200 tile data in 0.612 ms at 65.359474 MPix/s
+[2021-03-20 15:39:27.758] [trace] Get tile data group in 1.87 ms
+[2021-03-20 15:39:29.159] [trace] Fill spectral profile in 1398.02 ms
+[2021-03-20 15:39:29.166] [info] Client 1 [127.0.0.1] Deleted. Remaining sessions: 1
+[2021-03-20 15:39:29.166] [debug] 0x562a3fbac010 ~Session 0
+[2021-03-20 15:39:29.166] [info] No remaining sessions.

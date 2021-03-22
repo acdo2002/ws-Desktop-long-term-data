@@ -1,0 +1,27 @@
+[999D[KPASS src/test/PERF_CONTOUR_DATA.test.ts (37.084s)
+  PERF_CONTOUR_DATA
+    for "h_m51_b_s05_drz_sci.fits"
+      ✓ CARTA is ready & Send a Session: (35ms)
+      ✓ prepare (805ms)
+      ✓ CARTA is ready & Send a Session: (4ms)
+      ✓ CARTA is ready & Send a Session: (4ms)
+      Go to "set_QA" folder
+        With smoothingMode of "2"
+          ✓ (Step 1) smoothingMode of 2 OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 3000 ms (467ms)
+          ✓ (Step 1) smoothingMode of 2 SetImageChannels & SetCursor responses should arrive within 3000 ms (33ms)
+          ✓ (Step 2) smoothingMode of 2 ContourImageData responses should arrive within 12000 ms (1035ms)
+        With smoothingMode of "0"
+          ✓ (Step 1) smoothingMode of 0 OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 3000 ms (518ms)
+          ✓ (Step 1) smoothingMode of 0 SetImageChannels & SetCursor responses should arrive within 3000 ms (27ms)
+          ✓ (Step 2) smoothingMode of 0 ContourImageData responses should arrive within 12000 ms (1365ms)
+        With smoothingMode of "1"
+          ✓ (Step 1) smoothingMode of 1 OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 3000 ms (450ms)
+          ✓ (Step 1) smoothingMode of 1 SetImageChannels & SetCursor responses should arrive within 3000 ms (28ms)
+          ✓ (Step 2) smoothingMode of 1 ContourImageData responses should arrive within 12000 ms (143ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       13 passed, 13 total
+Snapshots:   0 total
+Time:        37.11s
+Ran all test suites matching /PERF_CONTOUR_DATA.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

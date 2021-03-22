@@ -1,0 +1,125 @@
+[2021-03-20 05:37:31.983] [info] Writing to the log file: /home/mingyi/.carta/log/carta.log
+[2021-03-20 05:37:31.998] [info] /home/mingyi/carta-backend-dev/0bd11aa/carta-backend/build/carta_backend: Version 2.0.0-dev.21.02.09
+[2021-03-20 05:37:32.025] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-03-20 05:37:51.209] [debug] 0x561d42288ff0 ::Session (1)
+[2021-03-20 05:37:51.209] [info] Client 1 [127.0.0.1] Connected. Num sessions: 1
+[2021-03-20 05:37:51.992] [trace] Load 9600x9600 image to cache in 739.867 ms at 124.56293 MPix/s
+[2021-03-20 05:37:51.992] [warning] Session 1: Image has no beam information.
+[2021-03-20 05:37:52.322] [trace] Fill image histogram in 330.113 ms at 279.17712 MPix/s
+[2021-03-20 05:37:52.328] [trace] Fill spatial profile in 0.001 ms
+[2021-03-20 05:37:52.329] [trace] Fill spatial profile in 0.97 ms
+[2021-03-20 05:37:52.758] [trace] Mean filter 9600x9600 raster data to 150x150 in 429.313 ms at 0.052409314 MPix/s
+[2021-03-20 05:37:52.758] [trace] Compress 150x150 tile data in 0.334 ms at 67.36527 MPix/s
+[2021-03-20 05:37:52.758] [trace] Get tile data group in 429.935 ms
+[2021-03-20 05:37:52.766] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.573 ms at 11.759555 MPix/s
+[2021-03-20 05:37:52.766] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.583 ms at 11.738492 MPix/s
+[2021-03-20 05:37:52.767] [trace] Compress 256x256 tile data in 0.896 ms at 73.14286 MPix/s
+[2021-03-20 05:37:52.767] [trace] Compress 256x256 tile data in 0.891 ms at 73.553314 MPix/s
+[2021-03-20 05:37:52.770] [trace] Mean filter 1024x1024 raster data to 256x256 in 9.105 ms at 7.1978035 MPix/s
+[2021-03-20 05:37:52.770] [trace] Mean filter 1024x1024 raster data to 256x256 in 9.1 ms at 7.2017584 MPix/s
+[2021-03-20 05:37:52.772] [trace] Compress 256x256 tile data in 1.487 ms at 44.072628 MPix/s
+[2021-03-20 05:37:52.772] [trace] Compress 256x256 tile data in 1.506 ms at 43.5166 MPix/s
+[2021-03-20 05:37:52.773] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.619 ms at 11.663285 MPix/s
+[2021-03-20 05:37:52.773] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.625 ms at 11.650845 MPix/s
+[2021-03-20 05:37:52.774] [trace] Compress 256x256 tile data in 0.856 ms at 76.560745 MPix/s
+[2021-03-20 05:37:52.774] [trace] Compress 256x256 tile data in 0.868 ms at 75.502304 MPix/s
+[2021-03-20 05:37:52.780] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.636 ms at 11.628105 MPix/s
+[2021-03-20 05:37:52.780] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.582 ms at 11.740595 MPix/s
+[2021-03-20 05:37:52.781] [trace] Mean filter 1024x1024 raster data to 256x256 in 9.125 ms at 7.1820273 MPix/s
+[2021-03-20 05:37:52.781] [trace] Mean filter 1024x1024 raster data to 256x256 in 9.148 ms at 7.1639705 MPix/s
+[2021-03-20 05:37:52.781] [trace] Compress 256x256 tile data in 0.859 ms at 76.293365 MPix/s
+[2021-03-20 05:37:52.781] [trace] Compress 256x256 tile data in 0.854 ms at 76.74004 MPix/s
+[2021-03-20 05:37:52.783] [trace] Compress 256x256 tile data in 1.466 ms at 44.703957 MPix/s
+[2021-03-20 05:37:52.783] [trace] Compress 256x256 tile data in 1.453 ms at 45.103924 MPix/s
+[2021-03-20 05:37:52.787] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.659 ms at 11.580845 MPix/s
+[2021-03-20 05:37:52.787] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.665 ms at 11.568579 MPix/s
+[2021-03-20 05:37:52.788] [trace] Compress 256x256 tile data in 0.859 ms at 76.293365 MPix/s
+[2021-03-20 05:37:52.788] [trace] Compress 256x256 tile data in 0.856 ms at 76.560745 MPix/s
+[2021-03-20 05:37:52.792] [trace] Mean filter 1024x1024 raster data to 256x256 in 9.097 ms at 7.204133 MPix/s
+[2021-03-20 05:37:52.792] [trace] Mean filter 1024x1024 raster data to 256x256 in 9.096 ms at 7.204925 MPix/s
+[2021-03-20 05:37:52.794] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.614 ms at 11.673673 MPix/s
+[2021-03-20 05:37:52.794] [trace] Compress 256x256 tile data in 1.453 ms at 45.103924 MPix/s
+[2021-03-20 05:37:52.794] [trace] Compress 256x256 tile data in 1.471 ms at 44.552006 MPix/s
+[2021-03-20 05:37:52.794] [trace] Mean filter 1024x1024 raster data to 256x256 in 6.015000000000001 ms at 10.895428 MPix/s
+[2021-03-20 05:37:52.795] [trace] Compress 256x256 tile data in 0.864 ms at 75.85185 MPix/s
+[2021-03-20 05:37:52.797] [trace] Compress 256x256 tile data in 0.864 ms at 75.85185 MPix/s
+[2021-03-20 05:37:52.802] [trace] Mean filter 1024x1024 raster data to 256x256 in 7.972 ms at 8.220773 MPix/s
+[2021-03-20 05:37:52.803] [trace] Mean filter 1024x1024 raster data to 256x256 in 6.038 ms at 10.853925 MPix/s
+[2021-03-20 05:37:52.803] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.678 ms at 11.542092 MPix/s
+[2021-03-20 05:37:52.804] [trace] Compress 256x256 tile data in 0.901 ms at 72.73696 MPix/s
+[2021-03-20 05:37:52.804] [trace] Compress 256x256 tile data in 1.339 ms at 48.94399 MPix/s
+[2021-03-20 05:37:52.804] [trace] Compress 256x256 tile data in 0.927 ms at 70.69687 MPix/s
+[2021-03-20 05:37:52.805] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.975 ms at 7.302061 MPix/s
+[2021-03-20 05:37:52.807] [trace] Compress 256x256 tile data in 1.2770000000000001 ms at 51.320282 MPix/s
+[2021-03-20 05:37:52.810] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.694 ms at 11.50966 MPix/s
+[2021-03-20 05:37:52.810] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.625 ms at 11.650845 MPix/s
+[2021-03-20 05:37:52.811] [trace] Compress 256x256 tile data in 0.859 ms at 76.293365 MPix/s
+[2021-03-20 05:37:52.811] [trace] Compress 256x256 tile data in 0.925 ms at 70.84973 MPix/s
+[2021-03-20 05:37:52.813] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.915000000000001 ms at 7.351206 MPix/s
+[2021-03-20 05:37:52.815] [trace] Compress 256x256 tile data in 1.272 ms at 51.52201 MPix/s
+[2021-03-20 05:37:52.816] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.867 ms at 7.3910003 MPix/s
+[2021-03-20 05:37:52.817] [trace] Mean filter 1024x1024 raster data to 256x256 in 6.067 ms at 10.802044 MPix/s
+[2021-03-20 05:37:52.817] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.646 ms at 11.60751 MPix/s
+[2021-03-20 05:37:52.818] [trace] Compress 256x256 tile data in 1.272 ms at 51.52201 MPix/s
+[2021-03-20 05:37:52.818] [trace] Compress 256x256 tile data in 0.86 ms at 76.20465 MPix/s
+[2021-03-20 05:37:52.818] [trace] Compress 256x256 tile data in 0.921 ms at 71.15744 MPix/s
+[2021-03-20 05:37:52.824] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.726 ms at 11.445337 MPix/s
+[2021-03-20 05:37:52.824] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.927 ms at 7.341324 MPix/s
+[2021-03-20 05:37:52.824] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.703 ms at 11.491496 MPix/s
+[2021-03-20 05:37:52.825] [trace] Compress 256x256 tile data in 0.854 ms at 76.74004 MPix/s
+[2021-03-20 05:37:52.825] [trace] Compress 256x256 tile data in 0.889 ms at 73.71879 MPix/s
+[2021-03-20 05:37:52.826] [trace] Compress 256x256 tile data in 1.337 ms at 49.017204 MPix/s
+[2021-03-20 05:37:52.827] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.957 ms at 7.3167357 MPix/s
+[2021-03-20 05:37:52.829] [trace] Compress 256x256 tile data in 1.274 ms at 51.44113 MPix/s
+[2021-03-20 05:37:52.831] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.7010000000000005 ms at 11.495527 MPix/s
+[2021-03-20 05:37:52.831] [trace] Mean filter 1024x1024 raster data to 256x256 in 6.140000000000001 ms at 10.673615 MPix/s
+[2021-03-20 05:37:52.832] [trace] Compress 256x256 tile data in 0.855 ms at 76.65029 MPix/s
+[2021-03-20 05:37:52.832] [trace] Compress 256x256 tile data in 0.89 ms at 73.635956 MPix/s
+[2021-03-20 05:37:52.835] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.902000000000001 ms at 7.3619413 MPix/s
+[2021-03-20 05:37:52.836] [trace] Compress 256x256 tile data in 1.27 ms at 51.60315 MPix/s
+[2021-03-20 05:37:52.838] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.878 ms at 7.3818426 MPix/s
+[2021-03-20 05:37:52.838] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.656 ms at 11.5869875 MPix/s
+[2021-03-20 05:37:52.838] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.628 ms at 11.644634 MPix/s
+[2021-03-20 05:37:52.839] [trace] Compress 256x256 tile data in 0.856 ms at 76.560745 MPix/s
+[2021-03-20 05:37:52.839] [trace] Compress 256x256 tile data in 0.891 ms at 73.553314 MPix/s
+[2021-03-20 05:37:52.840] [trace] Compress 256x256 tile data in 1.369 ms at 47.87144 MPix/s
+[2021-03-20 05:37:52.845] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.737 ms at 11.423392 MPix/s
+[2021-03-20 05:37:52.845] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.672 ms at 11.554302 MPix/s
+[2021-03-20 05:37:52.846] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.936 ms at 7.33393 MPix/s
+[2021-03-20 05:37:52.846] [trace] Compress 256x256 tile data in 0.854 ms at 76.74004 MPix/s
+[2021-03-20 05:37:52.846] [trace] Compress 256x256 tile data in 0.885 ms at 74.05198 MPix/s
+[2021-03-20 05:37:52.847] [trace] Compress 256x256 tile data in 1.3960000000000001 ms at 46.94556 MPix/s
+[2021-03-20 05:37:52.849] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.976 ms at 7.3012476 MPix/s
+[2021-03-20 05:37:52.850] [trace] Compress 256x256 tile data in 1.2710000000000001 ms at 51.56255 MPix/s
+[2021-03-20 05:37:52.852] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.795 ms at 11.309059 MPix/s
+[2021-03-20 05:37:52.852] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.715 ms at 11.467366 MPix/s
+[2021-03-20 05:37:52.853] [trace] Compress 256x256 tile data in 0.856 ms at 76.560745 MPix/s
+[2021-03-20 05:37:52.853] [trace] Compress 256x256 tile data in 0.885 ms at 74.05198 MPix/s
+[2021-03-20 05:37:52.857] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.904 ms at 7.3602877 MPix/s
+[2021-03-20 05:37:52.858] [trace] Compress 256x256 tile data in 1.268 ms at 51.684544 MPix/s
+[2021-03-20 05:37:52.859] [trace] Mean filter 1024x1024 raster data to 256x256 in 5.672 ms at 11.554302 MPix/s
+[2021-03-20 05:37:52.860] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.914 ms at 7.3520303 MPix/s
+[2021-03-20 05:37:52.860] [trace] Compress 256x256 tile data in 0.855 ms at 76.65029 MPix/s
+[2021-03-20 05:37:52.861] [trace] Compress 256x256 tile data in 1.296 ms at 50.5679 MPix/s
+[2021-03-20 05:37:52.867] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.821 ms at 7.429543 MPix/s
+[2021-03-20 05:37:52.869] [trace] Compress 256x256 tile data in 1.27 ms at 51.60315 MPix/s
+[2021-03-20 05:37:52.870] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.745000000000001 ms at 7.494111 MPix/s
+[2021-03-20 05:37:52.872] [trace] Compress 256x256 tile data in 1.268 ms at 51.684544 MPix/s
+[2021-03-20 05:37:52.878] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.774000000000001 ms at 7.4693413 MPix/s
+[2021-03-20 05:37:52.880] [trace] Compress 256x256 tile data in 1.274 ms at 51.44113 MPix/s
+[2021-03-20 05:37:52.881] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.732 ms at 7.505268 MPix/s
+[2021-03-20 05:37:52.882] [trace] Compress 256x256 tile data in 1.268 ms at 51.684544 MPix/s
+[2021-03-20 05:37:52.888] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.749 ms at 7.4906845 MPix/s
+[2021-03-20 05:37:52.890] [trace] Compress 256x256 tile data in 1.268 ms at 51.684544 MPix/s
+[2021-03-20 05:37:52.891] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.745000000000001 ms at 7.494111 MPix/s
+[2021-03-20 05:37:52.893] [trace] Compress 256x256 tile data in 1.2670000000000001 ms at 51.725334 MPix/s
+[2021-03-20 05:37:52.899] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.763 ms at 7.4787173 MPix/s
+[2021-03-20 05:37:52.901] [trace] Compress 256x256 tile data in 1.2710000000000001 ms at 51.56255 MPix/s
+[2021-03-20 05:37:52.902] [trace] Mean filter 1024x1024 raster data to 256x256 in 8.527000000000001 ms at 7.685704 MPix/s
+[2021-03-20 05:37:52.903] [trace] Compress 256x256 tile data in 0.9500000000000001 ms at 68.98526 MPix/s
+[2021-03-20 05:37:52.910] [trace] Mean filter 1024x1024 raster data to 256x256 in 7.064 ms at 9.277463 MPix/s
+[2021-03-20 05:37:52.911] [trace] Compress 256x256 tile data in 0.893 ms at 73.38858 MPix/s
+[2021-03-20 05:37:52.911] [trace] Get tile data group in 150.948 ms
+[2021-03-20 05:37:52.912] [info] Client 1 [127.0.0.1] Disconnected. Remaining sessions: 1
+[2021-03-20 05:37:52.912] [debug] 0x561d42288ff0 ~Session 0
+[2021-03-20 05:37:52.912] [info] No remaining sessions.

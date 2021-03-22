@@ -1,0 +1,33 @@
+[999D[KFAIL src/test/PERF_CUBE_HISTOGRAM_CASA.test.ts (123.952s)
+  PERF_CUBE_HISTOGRAM
+    for "cube_B_09600_z00100.image"
+      ✓ CARTA is ready & Send a Session: (33ms)
+      Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.image":": 
+        ✕ (Step 1)"cube_B_09600_z00100.image" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms (7002ms)
+        ✓ (Step 1)"cube_B_09600_z00100.image" SetImageChannels & SetCursor responses should arrive within 5000 ms (2719ms)
+        Set histogram requirements:
+          ✓ (Step 2)"cube_B_09600_z00100.image" REGION_HISTOGRAM_DATA should arrive completely within 300000 ms: (101953ms)
+
+  ● PERF_CUBE_HISTOGRAM › for "cube_B_09600_z00100.image" › Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.image":":  › (Step 1)"cube_B_09600_z00100.image" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms
+
+    : Timeout - Async callback was not invoked within the 7000ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 7000ms timeout specified by jest.setTimeout.Error:
+
+      74 |
+      75 |             describe(`Go to "${assertItem.fileOpen[key].directory}" folder and open image "${assertItem.fileOpen[key].file}":": `, () => {
+    > 76 |                 test(`(Step 1)"${assertItem.fileOpen[key].file}" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within ${openFileTimeout} ms`, async () => {
+         |                 ^
+      77 |                     let OpenAck = await Connection.openFile(value);
+      78 |                     // OpenFileAck | RegionHistogramData
+      79 |                 }, openFileTimeout);
+
+      at new Spec (node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Suite.describe (src/test/PERF_CUBE_HISTOGRAM_CASA.test.ts:76:17)
+
+[999D[KTest Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        123.978s
+Ran all test suites matching /PERF_CUBE_HISTOGRAM_CASA.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Test failed.  See above for more details.
+[0m

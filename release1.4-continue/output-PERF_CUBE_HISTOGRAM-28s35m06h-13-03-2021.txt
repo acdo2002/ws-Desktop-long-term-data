@@ -1,0 +1,30 @@
+[999D[KPASS src/test/PERF_CUBE_HISTOGRAM.test.ts (337.022s)
+  PERF_CUBE_HISTOGRAM
+    for "cube_B_09600_z00100.fits"
+      ✓ CARTA is ready & Send a Session: (38ms)
+      Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.fits":": 
+        ✓ (Step 1)"cube_B_09600_z00100.fits" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms (1178ms)
+        ✓ (Step 1)"cube_B_09600_z00100.fits" SetImageChannels & SetCursor responses should arrive within 5000 ms (199ms)
+        Set histogram requirements:
+          ✓ (Step 2)"cube_B_09600_z00100.fits" REGION_HISTOGRAM_DATA should arrive completely within 300000 ms: (162659ms)
+    for "cube_B_09600_z00100.image"
+      ✓ CARTA is ready & Send a Session: (5ms)
+      Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.image":": 
+        ✓ (Step 1)"cube_B_09600_z00100.image" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms (1353ms)
+        ✓ (Step 1)"cube_B_09600_z00100.image" SetImageChannels & SetCursor responses should arrive within 5000 ms (198ms)
+        Set histogram requirements:
+          ✓ (Step 2)"cube_B_09600_z00100.image" REGION_HISTOGRAM_DATA should arrive completely within 300000 ms: (137213ms)
+    for "cube_B_09600_z00100.hdf5"
+      ✓ CARTA is ready & Send a Session: (69ms)
+      Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.hdf5":": 
+        ✓ (Step 1)"cube_B_09600_z00100.hdf5" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms (1642ms)
+        ✓ (Step 1)"cube_B_09600_z00100.hdf5" SetImageChannels & SetCursor responses should arrive within 5000 ms (187ms)
+        Set histogram requirements:
+          ✓ (Step 2)"cube_B_09600_z00100.hdf5" REGION_HISTOGRAM_DATA should arrive completely within 500 ms: (3ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       12 passed, 12 total
+Snapshots:   0 total
+Time:        337.125s
+Ran all test suites matching /PERF_CUBE_HISTOGRAM.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

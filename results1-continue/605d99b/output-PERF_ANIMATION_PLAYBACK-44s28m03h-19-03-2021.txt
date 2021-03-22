@@ -1,0 +1,30 @@
+[999D[KPASS src/test/PERF_ANIMATION_PLAYBACK.test.ts (154.508s)
+  PERF_ANIMATION_PLAYBACK
+    for "cube_B_09600_z00100.fits"
+      ✓ CARTA is ready & Send a Session: (32ms)
+      Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.fits":": 
+        ✓ (Step 1)"cube_B_09600_z00100.fits" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms (733ms)
+        ✓ (Step 1)"cube_B_09600_z00100.fits" SetImageChannels & SetCursor responses should arrive within 7000 ms (61ms)
+        Play some channels forwardly
+          ✓ (Step 2)"cube_B_09600_z00100.fits" Image should return within 200000: (39240ms)
+    for "cube_B_09600_z00100.image"
+      ✓ CARTA is ready & Send a Session: (3ms)
+      Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.image":": 
+        ✓ (Step 1)"cube_B_09600_z00100.image" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms (1021ms)
+        ✓ (Step 1)"cube_B_09600_z00100.image" SetImageChannels & SetCursor responses should arrive within 7000 ms (58ms)
+        Play some channels forwardly
+          ✓ (Step 2)"cube_B_09600_z00100.image" Image should return within 200000: (33317ms)
+    for "cube_B_09600_z00100.hdf5"
+      ✓ CARTA is ready & Send a Session: (5ms)
+      Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.hdf5":": 
+        ✓ (Step 1)"cube_B_09600_z00100.hdf5" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms (1065ms)
+        ✓ (Step 1)"cube_B_09600_z00100.hdf5" SetImageChannels & SetCursor responses should arrive within 7000 ms (61ms)
+        Play some channels forwardly
+          ✓ (Step 2)"cube_B_09600_z00100.hdf5" Image should return within 600000: (46681ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       12 passed, 12 total
+Snapshots:   0 total
+Time:        154.606s
+Ran all test suites matching /PERF_ANIMATION_PLAYBACK.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
