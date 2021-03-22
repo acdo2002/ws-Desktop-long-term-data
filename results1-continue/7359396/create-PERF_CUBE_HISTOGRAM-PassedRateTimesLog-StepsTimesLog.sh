@@ -2,7 +2,7 @@
 
 perftestname=('PERF_CUBE_HISTOGRAM') # 'PERF_CONTOUR_DATA' 'PERF_CUBE_HISTOGRAM' 'PERF_REGION_SPECTRAL_PROFILE' 'PERF_ANIMATION_PLAYBACK')
 # lenperftest="${#perftestname[@]}"
-ImageName=('cube_B_02400_z00100.fits' 'cube_B_04800_z00100.fits' 'cube_B_09600_z00100.fits' 'cube_B_19200_z00100.fits' 'cube_B_02400_z00100.image' 'cube_B_04800_z00100.image' 'cube_B_09600_z00100.image' 'cube_B_19200_z00100.image' 'cube_B_02400_z00100.hdf5' 'cube_B_04800_z00100.hdf5' 'cube_B_09600_z00100.hdf5' 'cube_B_19200_z00100.hdf5')
+ImageName=('cube_B_09600_z00100.fits' 'cube_B_09600_z00100.image' 'cube_B_09600_z00100.hdf5')
 # echo "${#ImageName[@]}"
 
 for perfname in "${perftestname[@]}"

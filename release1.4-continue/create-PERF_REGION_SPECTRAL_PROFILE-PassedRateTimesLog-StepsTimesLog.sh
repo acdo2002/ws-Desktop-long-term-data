@@ -2,7 +2,8 @@
 
 perftestname=('PERF_REGION_SPECTRAL_PROFILE') #  'PERF_REGION_SPECTRAL_PROFILE' 'PERF_ANIMATION_PLAYBACK')
 # lenperftest="${#perftestname[@]}"
-ImageName=('cube_B_01600_z01000.fits' 'cube_B_01600_z02000.fits' 'cube_B_01600_z04000.fits' 'cube_B_03200_z01000.fits' 'cube_B_03200_z02000.fits' 'cube_B_03200_z04000.fits' 'cube_B_01600_z01000.image' 'cube_B_01600_z02000.image' 'cube_B_01600_z04000.image' 'cube_B_03200_z01000.image' 'cube_B_03200_z02000.image' 'cube_B_03200_z04000.image' 'cube_B_01600_z01000.hdf5' 'cube_B_01600_z02000.hdf5' 'cube_B_01600_z04000.hdf5' 'cube_B_03200_z01000.hdf5' 'cube_B_03200_z02000.hdf5' 'cube_B_03200_z04000.hdf5')
+ImageName=('cube_B_01600_z01000.fits' 'cube_B_01600_z01000.image' 'cube_B_01600_z01000.hdf5')
+# ImageName=('cube_B_01600_z01000.fits' 'cube_B_01600_z02000.fits' 'cube_B_01600_z04000.fits' 'cube_B_03200_z01000.fits' 'cube_B_03200_z02000.fits' 'cube_B_03200_z04000.fits' 'cube_B_01600_z01000.image' 'cube_B_01600_z02000.image' 'cube_B_01600_z04000.image' 'cube_B_03200_z01000.image' 'cube_B_03200_z02000.image' 'cube_B_03200_z04000.image' 'cube_B_01600_z01000.hdf5' 'cube_B_01600_z02000.hdf5' 'cube_B_01600_z04000.hdf5' 'cube_B_03200_z01000.hdf5' 'cube_B_03200_z02000.hdf5' 'cube_B_03200_z04000.hdf5')
 # echo "${#ImageName[@]}"
 
 for perfname in "${perftestname[@]}"
