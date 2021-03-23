@@ -1,0 +1,31 @@
+./carta_backend: Version 1.4
+CARTA gRPC service available at 0.0.0.0:50051
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Mon Mar 22 16:15:16 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 846.743 ms at 123.91009 MPix/s
+Fill image histogram in 405.451 ms at 258.77356 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 1.473 ms
+Mean filter 4096x4096 raster data to 256x256 in 112.83 ms at 0.58083844 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.759 ms at 0.5760951 MPix/s
+Compress 256x256 tile data in 0.96 ms at 68.26667 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 114.646 ms at 0.5716379 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 114.735 ms at 0.57119447 MPix/s
+Compress 256x256 tile data in 1.0090000000000001 ms at 64.95144 MPix/s
+Compress 256x256 tile data in 0.884 ms at 74.13575 MPix/s
+Compress 256x256 tile data in 1.008 ms at 65.01588 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.719 ms at 0.5679665 MPix/s
+Compress 26x256 tile data in 0.045 ms at 147.91112 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.522 ms at 0.5776775 MPix/s
+Compress 26x256 tile data in 0.074 ms at 89.945946 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.016 ms at 0.59487486 MPix/s
+Compress 256x251 tile data in 0.8150000000000001 ms at 78.84172 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 109.976 ms at 0.5842729 MPix/s
+Compress 256x251 tile data in 0.869 ms at 73.94246 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.081 ms at 0.58893603 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 235.823 ms
+Smoothed with smoothing factor of 4 and kernel size of 7 in 753.557 ms at 139.06743086455305 MPix/s
+Contoured 8594x12194 image in 2267.442 ms at 46.21738328918667 MPix/s. Found 459772 vertices in 8054 segments across 5 levels
+Session 1 (Mon Mar 22 16:15:21 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

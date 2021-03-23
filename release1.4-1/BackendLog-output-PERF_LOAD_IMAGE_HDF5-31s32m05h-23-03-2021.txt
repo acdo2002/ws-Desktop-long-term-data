@@ -1,0 +1,30 @@
+./carta_backend: Version 1.4
+CARTA gRPC service available at 0.0.0.0:50051
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Tue Mar 23 05:33:44 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Keyword Error:  name = EXTEND of type  LONG  and value 1
+	Keyword value has wrong data type.
+Load 9600x9600 image to cache in 1313.0910000000001 ms at 70.18554 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.6880000000000001 ms
+Mean filter 4096x4096 raster data to 256x256 in 112.456 ms at 0.58277017 MPix/s
+Compress 256x256 tile data in 0.92 ms at 71.23478 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 114.08200000000001 ms at 0.57446396 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 114.21900000000001 ms at 0.57377493 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 114.254 ms at 0.57359916 MPix/s
+Compress 256x256 tile data in 0.891 ms at 73.553314 MPix/s
+Compress 256x256 tile data in 0.923 ms at 71.00325 MPix/s
+Compress 256x256 tile data in 0.912 ms at 71.85965 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 38.229 ms at 0.58929086 MPix/s
+Compress 256x88 tile data in 0.295 ms at 76.366104 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 38.427 ms at 0.5862545 MPix/s
+Compress 88x256 tile data in 0.336 ms at 67.04762 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 38.844 ms at 0.5799609 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 38.957 ms at 0.5782786 MPix/s
+Compress 256x88 tile data in 0.293 ms at 76.887375 MPix/s
+Compress 88x256 tile data in 0.296 ms at 76.10811 MPix/s
+Mean filter 1408x1408 raster data to 88x88 in 13.072000000000001 ms at 0.5924113 MPix/s
+Compress 88x88 tile data in 0.10300000000000001 ms at 75.18446 MPix/s
+Get tile data group in 168.33 ms
+Session 1 (Tue Mar 23 05:33:45 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

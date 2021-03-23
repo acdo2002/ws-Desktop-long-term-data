@@ -1,0 +1,31 @@
+./carta_backend: Version 1.4
+CARTA gRPC service available at 0.0.0.0:50051
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Mon Mar 22 21:00:47 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 813.456 ms at 128.98055 MPix/s
+Fill image histogram in 396.627 ms at 264.53064 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 1.413 ms
+Mean filter 4096x4096 raster data to 256x256 in 111.65 ms at 0.5869772 MPix/s
+Compress 256x256 tile data in 1.03 ms at 63.627186 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.413 ms at 0.5778526 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.773 ms at 0.5760242 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.924 ms at 0.5752607 MPix/s
+Compress 256x256 tile data in 0.863 ms at 75.93974 MPix/s
+Compress 256x256 tile data in 0.9460000000000001 ms at 69.276955 MPix/s
+Compress 256x256 tile data in 0.9560000000000001 ms at 68.5523 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.803 ms at 0.56392443 MPix/s
+Compress 26x256 tile data in 0.077 ms at 86.44156 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.555 ms at 0.5760277 MPix/s
+Compress 26x256 tile data in 0.045 ms at 147.91112 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.648 ms at 0.59141445 MPix/s
+Compress 256x251 tile data in 0.8170000000000001 ms at 78.64871 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 110.467 ms at 0.58167595 MPix/s
+Compress 256x251 tile data in 0.868 ms at 74.02765 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.112 ms at 0.587293 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 234.443 ms
+Smoothed with smoothing factor of 4 and kernel size of 7 in 744.979 ms at 140.66871146703465 MPix/s
+Contoured 8594x12194 image in 2257.981 ms at 46.41103534529299 MPix/s. Found 459772 vertices in 8054 segments across 5 levels
+Session 1 (Mon Mar 22 21:00:52 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

@@ -1,0 +1,33 @@
+[999D[KFAIL src/test/PERF_CONTOUR_DATA_Mode1.test.ts (37.883s)
+  PERF_CONTOUR_DATA
+    for "h_m51_b_s05_drz_sci.fits"
+      ✓ CARTA is ready & Send a Session: (10ms)
+      Go to "set_QA" folder
+        With smoothingMode of "1"
+          ✓ (Step 1) smoothingMode of 1 OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 3000 ms (1375ms)
+          ✓ (Step 1) smoothingMode of 1 SetImageChannels & SetCursor responses should arrive within 3000 ms (274ms)
+          ✕ (Step 2) smoothingMode of 1 ContourImageData responses should arrive within 24000 ms (24002ms)
+
+  ● PERF_CONTOUR_DATA › for "h_m51_b_s05_drz_sci.fits" › Go to "set_QA" folder › With smoothingMode of "1" › (Step 2) smoothingMode of 1 ContourImageData responses should arrive within 24000 ms
+
+    : Timeout - Async callback was not invoked within the 24000ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 24000ms timeout specified by jest.setTimeout.Error:
+
+      105 |
+      106 |                     let ack2: AckStream;
+    > 107 |                     test(`(Step 2) smoothingMode of ${assertItem.setContour[key].smoothingMode} ContourImageData responses should arrive within ${playContourTimeout} ms`, async () => {
+          |                     ^
+      108 |                         await Connection.send(CARTA.SetContourParameters,assertItem.initContour);
+      109 |                         await Connection.send(CARTA.SetContourParameters, assertItem.setContour[key]);
+      110 |                         let account = 0;
+
+      at new Spec (node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Suite.describe (src/test/PERF_CONTOUR_DATA_Mode1.test.ts:107:21)
+
+[999D[KTest Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        37.907s
+Ran all test suites matching /PERF_CONTOUR_DATA_Mode1.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Test failed.  See above for more details.
+[0m

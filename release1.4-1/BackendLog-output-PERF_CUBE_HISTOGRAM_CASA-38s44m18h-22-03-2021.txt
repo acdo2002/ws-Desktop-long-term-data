@@ -1,0 +1,30 @@
+./carta_backend: Version 1.4
+CARTA gRPC service available at 0.0.0.0:50051
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Mon Mar 22 18:52:47 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 9600x9600 image to cache in 1197.4270000000001 ms at 76.96503 MPix/s
+Fill image histogram in 357.019 ms at 258.1375 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.651 ms
+Mean filter 4096x4096 raster data to 256x256 in 113.735 ms at 0.57621664 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 114.024 ms at 0.5747562 MPix/s
+Compress 256x256 tile data in 0.915 ms at 71.62405 MPix/s
+Compress 256x256 tile data in 0.921 ms at 71.15744 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 38.346000000000004 ms at 0.5874928 MPix/s
+Compress 88x256 tile data in 0.296 ms at 76.10811 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 38.75 ms at 0.58136773 MPix/s
+Compress 256x88 tile data in 0.3 ms at 75.09333 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 188.79500000000002 ms at 0.34712783 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 189.45600000000002 ms at 0.34591672 MPix/s
+Compress 256x256 tile data in 1.466 ms at 44.703957 MPix/s
+Compress 256x256 tile data in 1.471 ms at 44.552006 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 64.339 ms at 0.3501453 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 64.297 ms at 0.35037404 MPix/s
+Compress 88x256 tile data in 0.481 ms at 46.83576 MPix/s
+Compress 256x88 tile data in 0.294 ms at 76.62585 MPix/s
+Mean filter 1408x1408 raster data to 88x88 in 13.115 ms at 0.59046894 MPix/s
+Compress 88x88 tile data in 0.10200000000000001 ms at 75.92157 MPix/s
+Get tile data group in 269.707 ms
+Fill cube histogram in 149954.044 ms at 61.458828 MPix/s
+Session 1 (Mon Mar 22 18:55:19 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

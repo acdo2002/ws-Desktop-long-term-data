@@ -1,0 +1,15 @@
+./carta_backend: Version 1.4
+CARTA gRPC service available at 0.0.0.0:50051
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Mon Mar 22 18:57:28 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Keyword Error:  name = EXTEND of type  LONG  and value 1
+	Keyword value has wrong data type.
+Load 1600x1600 image to cache in 49.019 ms at 52.224648 MPix/s
+Fill spatial profile in 0.002 ms
+Fill spatial profile in 0.12 ms
+Mean filter 1600x1600 raster data to 200x200 in 16.116 ms at 2.4820054 MPix/s
+Compress 200x200 tile data in 0.5720000000000001 ms at 69.93007 MPix/s
+Get tile data group in 17.365000000000002 ms
+Fill spectral profile in 3122.056 ms
+Session 1 (Mon Mar 22 18:57:31 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

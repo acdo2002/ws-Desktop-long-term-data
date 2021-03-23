@@ -1,0 +1,30 @@
+./carta_backend: Version 1.4
+CARTA gRPC service available at 0.0.0.0:50051
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Mon Mar 22 20:24:26 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 9600x9600 image to cache in 764.508 ms at 120.54812 MPix/s
+Fill image histogram in 348.904 ms at 264.14142 MPix/s
+Fill spatial profile in 0.0 ms
+Fill spatial profile in 0.662 ms
+Mean filter 4096x4096 raster data to 256x256 in 112.982 ms at 0.580057 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.73100000000001 ms at 0.5762369 MPix/s
+Compress 256x256 tile data in 0.915 ms at 71.62405 MPix/s
+Compress 256x256 tile data in 0.9430000000000001 ms at 69.49735 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 39.452 ms at 0.571023 MPix/s
+Compress 88x256 tile data in 0.296 ms at 76.10811 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 39.224000000000004 ms at 0.57434225 MPix/s
+Compress 256x88 tile data in 0.335 ms at 67.247765 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 163.88400000000001 ms at 0.3998926 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 164.385 ms at 0.39867383 MPix/s
+Compress 256x256 tile data in 0.902 ms at 72.65632 MPix/s
+Compress 256x256 tile data in 0.891 ms at 73.553314 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 38.151 ms at 0.59049565 MPix/s
+Compress 256x88 tile data in 0.295 ms at 76.366104 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 39.001 ms at 0.5776262 MPix/s
+Compress 88x256 tile data in 0.294 ms at 76.62585 MPix/s
+Mean filter 1408x1408 raster data to 88x88 in 13.096 ms at 0.5913256 MPix/s
+Compress 88x88 tile data in 0.10300000000000001 ms at 75.18446 MPix/s
+Get tile data group in 217.25300000000001 ms
+Fill cube histogram in 164176.498 ms at 56.13471 MPix/s
+Session 1 (Mon Mar 22 20:27:12 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

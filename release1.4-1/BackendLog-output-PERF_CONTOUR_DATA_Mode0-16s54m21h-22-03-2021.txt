@@ -1,0 +1,30 @@
+./carta_backend: Version 1.4
+CARTA gRPC service available at 0.0.0.0:50051
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Mon Mar 22 21:58:08 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 818.168 ms at 128.23772 MPix/s
+Fill image histogram in 407.306 ms at 257.59503 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.782 ms
+Mean filter 4096x4096 raster data to 256x256 in 111.087 ms at 0.589952 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 111.131 ms at 0.58971846 MPix/s
+Compress 256x256 tile data in 0.875 ms at 74.898285 MPix/s
+Compress 256x256 tile data in 1.0 ms at 65.536 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.491 ms at 0.5792359 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.462 ms at 0.5807015 MPix/s
+Compress 26x256 tile data in 0.076 ms at 87.57895 MPix/s
+Compress 26x256 tile data in 0.044 ms at 151.27272 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 141.012 ms at 0.46475476 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 141.674 ms at 0.46258312 MPix/s
+Compress 256x256 tile data in 0.963 ms at 68.054 MPix/s
+Compress 256x256 tile data in 0.935 ms at 70.09198 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 109.343 ms at 0.58765537 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 109.285 ms at 0.5879672 MPix/s
+Compress 256x251 tile data in 0.8180000000000001 ms at 78.55257 MPix/s
+Compress 256x251 tile data in 0.87 ms at 73.85747 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.057 ms at 0.5902144 MPix/s
+Compress 26x251 tile data in 0.019 ms at 343.4737 MPix/s
+Get tile data group in 264.421 ms
+Contoured 8600x12200 image in 3237.174 ms at 32.41098563129446 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Mon Mar 22 21:58:13 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

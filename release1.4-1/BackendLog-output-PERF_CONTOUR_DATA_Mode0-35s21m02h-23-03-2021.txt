@@ -1,0 +1,30 @@
+./carta_backend: Version 1.4
+CARTA gRPC service available at 0.0.0.0:50051
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Tue Mar 23 02:25:28 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 821.671 ms at 127.69101 MPix/s
+Fill image histogram in 397.058 ms at 264.2435 MPix/s
+Fill spatial profile in 0.0 ms
+Fill spatial profile in 0.778 ms
+Mean filter 4096x4096 raster data to 256x256 in 111.33800000000001 ms at 0.58862203 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 111.416 ms at 0.5882099 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 111.58 ms at 0.5873454 MPix/s
+Compress 256x256 tile data in 0.983 ms at 66.66938 MPix/s
+Compress 256x256 tile data in 0.9560000000000001 ms at 68.5523 MPix/s
+Compress 256x256 tile data in 0.96 ms at 68.26667 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 114.436 ms at 0.5726869 MPix/s
+Compress 256x256 tile data in 0.841 ms at 77.92628 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.449 ms at 0.5813608 MPix/s
+Compress 26x256 tile data in 0.045 ms at 147.91112 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.75 ms at 0.56646806 MPix/s
+Compress 26x256 tile data in 0.075 ms at 88.746666 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.046 ms at 0.59470963 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.811 ms at 0.59052855 MPix/s
+Compress 256x251 tile data in 0.8160000000000001 ms at 78.745094 MPix/s
+Compress 256x251 tile data in 0.868 ms at 74.02765 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 10.946 ms at 0.5961995 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 233.334 ms
+Contoured 8600x12200 image in 3291.494 ms at 31.87610246289375 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Tue Mar 23 02:25:33 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

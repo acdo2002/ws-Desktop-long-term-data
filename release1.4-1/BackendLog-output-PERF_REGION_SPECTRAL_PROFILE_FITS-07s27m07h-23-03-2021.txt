@@ -1,0 +1,14 @@
+./carta_backend: Version 1.4
+CARTA gRPC service available at 0.0.0.0:50051
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Tue Mar 23 07:39:11 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 1600x1600 image to cache in 20.955000000000002 ms at 122.16655 MPix/s
+Fill image histogram in 9.865 ms at 259.5033 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.076 ms
+Mean filter 1600x1600 raster data to 200x200 in 16.626 ms at 2.4058704 MPix/s
+Compress 200x200 tile data in 0.5640000000000001 ms at 70.92199 MPix/s
+Get tile data group in 17.624 ms
+Fill spectral profile in 4452.095 ms
+Session 1 (Tue Mar 23 07:39:15 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.
