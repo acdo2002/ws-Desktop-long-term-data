@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Tue Mar 23 20:15:04 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1010.956 ms at 103.78295 MPix/s
+Fill image histogram in 399.481 ms at 262.64078 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.795 ms
+Mean filter 4096x4096 raster data to 256x256 in 114.914 ms at 0.57030475 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 115.11800000000001 ms at 0.5692941 MPix/s
+Compress 256x256 tile data in 0.889 ms at 73.71879 MPix/s
+Compress 256x256 tile data in 0.96 ms at 68.26667 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.487 ms at 0.5794376 MPix/s
+Compress 26x256 tile data in 0.075 ms at 88.746666 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 142.18800000000002 ms at 0.46091092 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 142.621 ms at 0.45951158 MPix/s
+Compress 256x256 tile data in 0.925 ms at 70.84973 MPix/s
+Compress 256x256 tile data in 0.97 ms at 67.56289 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.42 ms at 0.5828371 MPix/s
+Compress 26x256 tile data in 0.044 ms at 151.27272 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.31400000000001 ms at 0.5932382 MPix/s
+Compress 256x251 tile data in 0.868 ms at 74.02765 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 109.052 ms at 0.5892235 MPix/s
+Compress 256x251 tile data in 0.8170000000000001 ms at 78.64871 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.276 ms at 0.5787513 MPix/s
+Compress 26x251 tile data in 0.019 ms at 343.4737 MPix/s
+Get tile data group in 265.95 ms
+Contoured 8600x12200 image in 3288.748 ms at 31.9027179948114 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Tue Mar 23 20:15:09 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Tue Mar 23 18:36:47 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1032.835 ms at 101.58447 MPix/s
+Fill image histogram in 394.425 ms at 266.00748 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.787 ms
+Mean filter 4096x4096 raster data to 256x256 in 113.21600000000001 ms at 0.57885814 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.293 ms at 0.5784647 MPix/s
+Compress 256x256 tile data in 0.85 ms at 77.10117 MPix/s
+Compress 256x256 tile data in 0.993 ms at 65.997986 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.478 ms at 0.579892 MPix/s
+Compress 26x256 tile data in 0.076 ms at 87.57895 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 152.936 ms at 0.42851913 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 153.92000000000002 ms at 0.42577964 MPix/s
+Compress 256x256 tile data in 0.926 ms at 70.77322 MPix/s
+Compress 256x256 tile data in 0.991 ms at 66.13118 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.339 ms at 0.5870006 MPix/s
+Compress 26x256 tile data in 0.044 ms at 151.27272 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 110.181 ms at 0.58318585 MPix/s
+Compress 256x251 tile data in 0.8180000000000001 ms at 78.55257 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.095 ms at 0.5881929 MPix/s
+Compress 26x251 tile data in 0.02 ms at 326.3 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 110.163 ms at 0.58328116 MPix/s
+Compress 256x251 tile data in 0.871 ms at 73.772675 MPix/s
+Get tile data group in 267.14 ms
+Contoured 8600x12200 image in 3352.314 ms at 31.297784157450643 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Tue Mar 23 18:36:52 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

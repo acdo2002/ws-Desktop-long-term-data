@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Tue Mar 23 18:14:17 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1036.039 ms at 101.27032 MPix/s
+Fill image histogram in 402.844 ms at 260.4482 MPix/s
+Fill spatial profile in 0.002 ms
+Fill spatial profile in 0.856 ms
+Mean filter 4096x4096 raster data to 256x256 in 112.754 ms at 0.5812299 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 112.85300000000001 ms at 0.58072007 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.205 ms at 0.57891434 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.27 ms at 0.57858217 MPix/s
+Compress 256x256 tile data in 1.0130000000000001 ms at 64.69497 MPix/s
+Compress 256x256 tile data in 0.9470000000000001 ms at 69.203804 MPix/s
+Compress 256x256 tile data in 0.859 ms at 76.293365 MPix/s
+Compress 256x256 tile data in 0.961 ms at 68.19563 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.577 ms at 0.57493305 MPix/s
+Compress 26x256 tile data in 0.046 ms at 144.69565 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.564 ms at 0.5755794 MPix/s
+Compress 26x256 tile data in 0.076 ms at 87.57895 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 110.741 ms at 0.5802368 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 112.137 ms at 0.57301337 MPix/s
+Compress 256x251 tile data in 0.89 ms at 72.197754 MPix/s
+Compress 256x251 tile data in 0.837 ms at 76.76942 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.347 ms at 0.57513 MPix/s
+Compress 26x251 tile data in 0.019 ms at 343.4737 MPix/s
+Get tile data group in 239.225 ms
+Contoured 8600x12200 image in 3321.775 ms at 31.585522800310073 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Tue Mar 23 18:14:22 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

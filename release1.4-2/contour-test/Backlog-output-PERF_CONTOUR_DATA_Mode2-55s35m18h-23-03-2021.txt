@@ -1,0 +1,30 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Tue Mar 23 18:36:08 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1011.164 ms at 103.761604 MPix/s
+Fill image histogram in 400.967 ms at 261.66742 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.803 ms
+Mean filter 4096x4096 raster data to 256x256 in 111.736 ms at 0.5865254 MPix/s
+Compress 256x256 tile data in 0.9490000000000001 ms at 69.05795 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.281 ms at 0.57852596 MPix/s
+Compress 256x256 tile data in 0.9410000000000001 ms at 69.64506 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.315 ms at 0.5882457 MPix/s
+Compress 26x256 tile data in 0.045 ms at 147.91112 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 171.828 ms at 0.38140467 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 172.336 ms at 0.38028038 MPix/s
+Compress 256x256 tile data in 0.965 ms at 67.91296 MPix/s
+Compress 256x256 tile data in 0.835 ms at 78.48623 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.455 ms at 0.5810563 MPix/s
+Compress 26x256 tile data in 0.074 ms at 89.945946 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 110.43 ms at 0.58187085 MPix/s
+Compress 256x251 tile data in 0.869 ms at 73.94246 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.507 ms at 0.592183 MPix/s
+Compress 256x251 tile data in 0.8180000000000001 ms at 78.55257 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.187 ms at 0.58335567 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 294.468 ms
+Smoothed with smoothing factor of 4 and kernel size of 7 in 747.285 ms at 140.2346306964545 MPix/s
+Contoured 8594x12194 image in 2256.023 ms at 46.45131543428413 MPix/s. Found 459772 vertices in 8054 segments across 5 levels
+Session 1 (Tue Mar 23 18:36:13 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

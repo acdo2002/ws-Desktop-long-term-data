@@ -1,0 +1,30 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Tue Mar 23 19:08:05 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1007.472 ms at 104.14185 MPix/s
+Fill image histogram in 396.046 ms at 264.91873 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.845 ms
+Mean filter 4096x4096 raster data to 256x256 in 113.098 ms at 0.57946205 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.11200000000001 ms at 0.57939035 MPix/s
+Compress 256x256 tile data in 0.9560000000000001 ms at 68.5523 MPix/s
+Compress 256x256 tile data in 0.971 ms at 67.49331 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.683 ms at 0.5697167 MPix/s
+Compress 26x256 tile data in 0.045 ms at 147.91112 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 143.895 ms at 0.4554432 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 144.154 ms at 0.45462492 MPix/s
+Compress 256x256 tile data in 0.937 ms at 69.94237 MPix/s
+Compress 256x256 tile data in 0.882 ms at 74.303856 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.669 ms at 0.5704002 MPix/s
+Compress 26x256 tile data in 0.075 ms at 88.746666 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 110.4 ms at 0.582029 MPix/s
+Compress 256x251 tile data in 0.8170000000000001 ms at 78.64871 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.1 ms at 0.58792794 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 109.947 ms at 0.58442706 MPix/s
+Compress 256x251 tile data in 0.869 ms at 73.94246 MPix/s
+Get tile data group in 256.84000000000003 ms
+Mean filter 12200x8600 raster data to 3050x2150 in 90.428 ms at 72.51626 MPix/s
+Contoured 2150x3050 image in 239.50400000000002 ms at 27.37950096866858 MPix/s. Found 310790 vertices in 18159 segments across 5 levels
+Session 1 (Tue Mar 23 19:08:08 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

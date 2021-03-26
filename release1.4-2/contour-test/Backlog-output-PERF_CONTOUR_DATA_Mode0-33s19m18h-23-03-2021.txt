@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Tue Mar 23 18:20:25 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1016.113 ms at 103.25623 MPix/s
+Fill image histogram in 394.022 ms at 266.27954 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.86 ms
+Mean filter 4096x4096 raster data to 256x256 in 111.515 ms at 0.58768773 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 111.755 ms at 0.58642566 MPix/s
+Compress 256x256 tile data in 0.9560000000000001 ms at 68.5523 MPix/s
+Compress 256x256 tile data in 0.985 ms at 66.53401 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.101 ms at 0.5794467 MPix/s
+Compress 256x256 tile data in 0.961 ms at 68.19563 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 117.459 ms at 0.5579479 MPix/s
+Compress 256x256 tile data in 0.838 ms at 78.20525 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.782 ms at 0.56492954 MPix/s
+Compress 26x256 tile data in 0.045 ms at 147.91112 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.572000000000001 ms at 0.5751815 MPix/s
+Compress 26x256 tile data in 0.075 ms at 88.746666 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.401 ms at 0.59276205 MPix/s
+Compress 256x251 tile data in 0.8190000000000001 ms at 78.45666 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.781 ms at 0.5906914 MPix/s
+Compress 256x251 tile data in 0.872 ms at 73.68807 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.047 ms at 0.5907486 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 234.167 ms
+Contoured 8600x12200 image in 3279.157 ms at 31.996028247503855 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Tue Mar 23 18:20:30 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.
