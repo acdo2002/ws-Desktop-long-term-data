@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Thu Mar 25 17:52:39 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 9600x9600 image to cache in 1633.704 ms at 56.411686 MPix/s
+Fill image histogram in 356.442 ms at 258.5554 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.6910000000000001 ms
+Mean filter 4096x4096 raster data to 256x256 in 186.994 ms at 0.35047114 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 186.994 ms at 0.35047114 MPix/s
+Compress 256x256 tile data in 1.575 ms at 41.610157 MPix/s
+Compress 256x256 tile data in 1.575 ms at 41.610157 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 203.279 ms at 0.32239434 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 203.46800000000002 ms at 0.3220949 MPix/s
+Compress 256x256 tile data in 1.49 ms at 43.983894 MPix/s
+Compress 256x256 tile data in 1.487 ms at 44.072628 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 63.611000000000004 ms at 0.3541526 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 63.944 ms at 0.35230827 MPix/s
+Compress 256x88 tile data in 0.523 ms at 43.07457 MPix/s
+Compress 88x256 tile data in 0.482 ms at 46.73859 MPix/s
+Mean filter 1408x1408 raster data to 88x88 in 13.467 ms at 0.5750353 MPix/s
+Compress 88x88 tile data in 0.10300000000000001 ms at 75.18446 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 69.185 ms at 0.32561973 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 69.495 ms at 0.3241672 MPix/s
+Compress 256x88 tile data in 0.494 ms at 45.603237 MPix/s
+Compress 88x256 tile data in 0.451 ms at 49.951218 MPix/s
+Get tile data group in 275.81600000000003 ms
+Fill cube histogram in 203100.643 ms at 45.37652 MPix/s
+Session 1 (Thu Mar 25 17:56:05 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

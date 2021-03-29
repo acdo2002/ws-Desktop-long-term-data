@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Sun Mar 28 18:41:10 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1030.798 ms at 101.78522 MPix/s
+Fill image histogram in 397.67400000000004 ms at 263.8342 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.802 ms
+Mean filter 4096x4096 raster data to 256x256 in 113.034 ms at 0.5797902 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.455 ms at 0.5776387 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.601 ms at 0.5768963 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.679 ms at 0.5765005 MPix/s
+Compress 256x256 tile data in 1.022 ms at 64.125244 MPix/s
+Compress 256x256 tile data in 0.977 ms at 67.07881 MPix/s
+Compress 256x256 tile data in 0.863 ms at 75.93974 MPix/s
+Compress 256x256 tile data in 0.964 ms at 67.983406 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.611 ms at 0.5732495 MPix/s
+Compress 26x256 tile data in 0.045 ms at 147.91112 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.668000000000001 ms at 0.5704491 MPix/s
+Compress 26x256 tile data in 0.074 ms at 89.945946 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.685 ms at 0.59121317 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.929 ms at 0.5898888 MPix/s
+Compress 256x251 tile data in 0.8160000000000001 ms at 78.745094 MPix/s
+Compress 256x251 tile data in 0.869 ms at 73.94246 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.194 ms at 0.5829909 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 235.939 ms
+Contoured 8600x12200 image in 3368.695 ms at 31.145591987401648 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Sun Mar 28 18:41:15 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

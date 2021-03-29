@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Fri Mar 26 13:16:15 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1024.898 ms at 102.37116 MPix/s
+Fill image histogram in 395.507 ms at 265.27975 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.799 ms
+Mean filter 4096x4096 raster data to 256x256 in 113.548 ms at 0.5771656 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.583 ms at 0.57698774 MPix/s
+Compress 256x256 tile data in 0.843 ms at 77.7414 MPix/s
+Compress 256x256 tile data in 0.975 ms at 67.21641 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.483 ms at 0.5796395 MPix/s
+Compress 26x256 tile data in 0.076 ms at 87.57895 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 140.995 ms at 0.46481082 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 141.221 ms at 0.46406695 MPix/s
+Compress 256x256 tile data in 0.93 ms at 70.46882 MPix/s
+Compress 256x256 tile data in 0.9570000000000001 ms at 68.48067 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.525 ms at 0.5775271 MPix/s
+Compress 26x256 tile data in 0.046 ms at 144.69565 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 110.758 ms at 0.5801477 MPix/s
+Compress 256x251 tile data in 0.869 ms at 73.94246 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 109.48700000000001 ms at 0.5868825 MPix/s
+Compress 256x251 tile data in 0.799 ms at 80.420525 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 10.879 ms at 0.59987134 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 264.479 ms
+Contoured 8600x12200 image in 3247.973 ms at 32.30322419552133 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Fri Mar 26 13:16:20 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

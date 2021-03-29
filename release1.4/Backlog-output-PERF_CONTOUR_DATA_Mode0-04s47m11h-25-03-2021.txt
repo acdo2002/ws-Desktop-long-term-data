@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Thu Mar 25 11:50:49 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1028.846 ms at 101.97833 MPix/s
+Fill image histogram in 395.69800000000004 ms at 265.1517 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 1.09 ms
+Mean filter 4096x4096 raster data to 256x256 in 112.738 ms at 0.5813124 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 112.777 ms at 0.5811114 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 112.787 ms at 0.5810599 MPix/s
+Compress 256x256 tile data in 1.0070000000000001 ms at 65.08044 MPix/s
+Compress 256x256 tile data in 0.9540000000000001 ms at 68.696014 MPix/s
+Compress 256x256 tile data in 0.963 ms at 68.054 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 114.778 ms at 0.5709805 MPix/s
+Compress 256x256 tile data in 0.855 ms at 76.65029 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.731 ms at 0.56738555 MPix/s
+Compress 26x256 tile data in 0.046 ms at 144.69565 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.563 ms at 0.5756292 MPix/s
+Compress 26x256 tile data in 0.076 ms at 87.57895 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.304 ms at 0.59329295 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.46900000000001 ms at 0.5923905 MPix/s
+Compress 256x251 tile data in 0.869 ms at 73.94246 MPix/s
+Compress 256x251 tile data in 0.8180000000000001 ms at 78.55257 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.198 ms at 0.5827826 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 235.63 ms
+Contoured 8600x12200 image in 3284.119 ms at 31.94768520872721 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Thu Mar 25 11:50:54 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

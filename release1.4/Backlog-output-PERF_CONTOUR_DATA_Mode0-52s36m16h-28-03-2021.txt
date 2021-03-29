@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Sun Mar 28 16:40:38 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1030.208 ms at 101.84351 MPix/s
+Fill image histogram in 400.42 ms at 262.02487 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.788 ms
+Mean filter 4096x4096 raster data to 256x256 in 111.261 ms at 0.5890294 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 111.424 ms at 0.5881677 MPix/s
+Compress 256x256 tile data in 0.862 ms at 76.02784 MPix/s
+Compress 256x256 tile data in 0.96 ms at 68.26667 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.404 ms at 0.5836549 MPix/s
+Compress 26x256 tile data in 0.076 ms at 87.57895 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.379 ms at 0.58493716 MPix/s
+Compress 26x256 tile data in 0.044 ms at 151.27272 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 185.872 ms at 0.35258672 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 185.883 ms at 0.35256585 MPix/s
+Compress 256x256 tile data in 1.549 ms at 42.308586 MPix/s
+Compress 256x256 tile data in 1.574 ms at 41.636593 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 180.266 ms at 0.35645103 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 180.51500000000001 ms at 0.35595933 MPix/s
+Compress 256x251 tile data in 1.437 ms at 44.715378 MPix/s
+Compress 256x251 tile data in 1.302 ms at 49.351765 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.066 ms at 0.5897343 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 381.809 ms
+Contoured 8600x12200 image in 3258.231 ms at 32.2015228508967 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Sun Mar 28 16:40:43 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

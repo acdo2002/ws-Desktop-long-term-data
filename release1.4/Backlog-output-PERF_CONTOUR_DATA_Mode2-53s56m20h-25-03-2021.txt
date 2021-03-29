@@ -1,0 +1,30 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Thu Mar 25 21:00:05 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1030.928 ms at 101.772385 MPix/s
+Fill image histogram in 395.913 ms at 265.00772 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 1.417 ms
+Mean filter 4096x4096 raster data to 256x256 in 113.367 ms at 0.5780871 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.47800000000001 ms at 0.5775216 MPix/s
+Compress 256x256 tile data in 0.9480000000000001 ms at 69.1308 MPix/s
+Compress 256x256 tile data in 0.836 ms at 78.39234 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.368 ms at 0.58550316 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.376 ms at 0.5850914 MPix/s
+Compress 26x256 tile data in 0.045 ms at 147.91112 MPix/s
+Compress 26x256 tile data in 0.074 ms at 89.945946 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 170.241 ms at 0.38496014 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 169.339 ms at 0.38701066 MPix/s
+Compress 256x256 tile data in 0.934 ms at 70.16702 MPix/s
+Compress 256x256 tile data in 0.964 ms at 67.983406 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 107.764 ms at 0.5962659 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 107.64 ms at 0.5969528 MPix/s
+Compress 256x251 tile data in 0.867 ms at 74.11304 MPix/s
+Compress 256x251 tile data in 0.8180000000000001 ms at 78.55257 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.192 ms at 0.5830951 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 292.637 ms
+Smoothed with smoothing factor of 4 and kernel size of 7 in 741.1560000000001 ms at 141.3943029537641 MPix/s
+Contoured 8594x12194 image in 2276.002 ms at 46.04356059441073 MPix/s. Found 459772 vertices in 8054 segments across 5 levels
+Session 1 (Thu Mar 25 21:00:10 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

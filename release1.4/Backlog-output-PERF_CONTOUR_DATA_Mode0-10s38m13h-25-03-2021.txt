@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Thu Mar 25 13:41:55 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1063.253 ms at 98.6783 MPix/s
+Fill image histogram in 403.68600000000004 ms at 259.90497 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.767 ms
+Mean filter 4096x4096 raster data to 256x256 in 112.614 ms at 0.5819525 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 113.174 ms at 0.57907295 MPix/s
+Compress 256x256 tile data in 0.9590000000000001 ms at 68.33785 MPix/s
+Compress 256x256 tile data in 0.97 ms at 67.56289 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.608 ms at 0.57339764 MPix/s
+Compress 26x256 tile data in 0.054 ms at 123.25926 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 187.071 ms at 0.3503269 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 187.106 ms at 0.35026136 MPix/s
+Compress 256x256 tile data in 1.389 ms at 47.182144 MPix/s
+Compress 256x256 tile data in 1.564 ms at 41.902813 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 18.889 ms at 0.3523744 MPix/s
+Compress 26x256 tile data in 0.12 ms at 55.466667 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.36800000000001 ms at 0.5929426 MPix/s
+Compress 256x251 tile data in 0.869 ms at 73.94246 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 117.412 ms at 0.54726946 MPix/s
+Compress 256x251 tile data in 0.8180000000000001 ms at 78.55257 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.062 ms at 0.5899476 MPix/s
+Compress 26x251 tile data in 0.019 ms at 343.4737 MPix/s
+Get tile data group in 319.327 ms
+Contoured 8600x12200 image in 3279.4500000000003 ms at 31.993169586363567 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Thu Mar 25 13:42:01 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.
