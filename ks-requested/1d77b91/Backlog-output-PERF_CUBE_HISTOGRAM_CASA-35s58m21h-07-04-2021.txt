@@ -1,0 +1,30 @@
+./carta_backend: Version 2.0.0-dev.21.01.22
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, and 4 OMP threads
+Session 1 (Wed Apr  7 22:07:13 2021): Client 1 [127.0.0.1] Connected. Num sessions: 1
+Load 9600x9600 image to cache in 1644.839 ms at 56.0298 MPix/s
+Session 1 (Wed Apr  7 22:07:15 2021): Image has no beam information.
+Fill image histogram in 338.879 ms at 271.95547 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.664 ms
+Mean filter 4096x4096 raster data to 256x256 in 64.22 ms at 1.0204921 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 63.188 ms at 1.037159 MPix/s
+Compress 256x256 tile data in 0.934 ms at 70.16702 MPix/s
+Compress 256x256 tile data in 0.9410000000000001 ms at 69.64506 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 21.982 ms at 1.0248384 MPix/s
+Compress 88x256 tile data in 0.295 ms at 76.366104 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 21.675 ms at 1.0393541 MPix/s
+Compress 256x88 tile data in 0.292 ms at 77.15069 MPix/s
+Mean filter 1408x1408 raster data to 88x88 in 7.5200000000000005 ms at 1.0297872 MPix/s
+Compress 88x88 tile data in 0.10200000000000001 ms at 75.92157 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 110.22 ms at 0.59459263 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 110.218 ms at 0.5946034 MPix/s
+Compress 256x256 tile data in 1.5050000000000001 ms at 43.545513 MPix/s
+Compress 256x256 tile data in 1.506 ms at 43.5166 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 37.721000000000004 ms at 0.59722704 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 37.974000000000004 ms at 0.593248 MPix/s
+Compress 256x88 tile data in 0.47700000000000004 ms at 47.22851 MPix/s
+Compress 88x256 tile data in 0.398 ms at 56.603016 MPix/s
+Get tile data group in 151.282 ms
+Fill cube histogram in 201397.372 ms at 45.760277 MPix/s
+Session 1 (Wed Apr  7 22:10:37 2021): Client 1 [127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

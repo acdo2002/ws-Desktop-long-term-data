@@ -1,0 +1,29 @@
+./carta_backend: Version 1.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Thu Apr  8 14:35:03 2021): Client 1 [::ffff:127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1138.9180000000001 ms at 92.12252 MPix/s
+Fill image histogram in 397.993 ms at 263.62274 MPix/s
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.8 ms
+Mean filter 4096x4096 raster data to 256x256 in 110.635 ms at 0.5923623 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 110.74600000000001 ms at 0.59176856 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 110.738 ms at 0.5918113 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 110.807 ms at 0.59144276 MPix/s
+Compress 256x256 tile data in 0.843 ms at 77.7414 MPix/s
+Compress 256x256 tile data in 0.9460000000000001 ms at 69.276955 MPix/s
+Compress 256x256 tile data in 0.971 ms at 67.49331 MPix/s
+Compress 256x256 tile data in 0.9540000000000001 ms at 68.696014 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.42 ms at 0.5828371 MPix/s
+Compress 26x256 tile data in 0.076 ms at 87.57895 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.713000000000001 ms at 0.5682575 MPix/s
+Compress 26x256 tile data in 0.044 ms at 151.27272 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 107.415 ms at 0.59820324 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 107.535 ms at 0.59753567 MPix/s
+Compress 256x251 tile data in 0.8170000000000001 ms at 78.64871 MPix/s
+Compress 256x251 tile data in 0.868 ms at 74.02765 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.019 ms at 0.59224975 MPix/s
+Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+Get tile data group in 232.24 ms
+Contoured 8600x12200 image in 3258.579 ms at 32.198083888713455 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Thu Apr  8 14:35:08 2021): Client 1 [::ffff:127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

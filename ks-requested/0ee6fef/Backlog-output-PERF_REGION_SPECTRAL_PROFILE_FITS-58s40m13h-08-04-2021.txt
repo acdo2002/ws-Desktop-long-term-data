@@ -1,0 +1,13 @@
+./carta_backend: Version 2.0.0-dev.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Thu Apr  8 13:54:00 2021): Client 1 [127.0.0.1] Connected. Num sessions: 1
+Load 1600x1600 image to cache in 53.711 ms at 47.66249 MPix/s
+Session 1 (Thu Apr  8 13:54:00 2021): Image has no beam information.
+Fill image histogram in 10.308 ms at 248.3508 MPix/s
+Fill spatial profile in 0.14300000000000002 ms
+Mean filter 1600x1600 raster data to 200x200 in 18.347 ms at 2.180193 MPix/s
+Compress 200x200 tile data in 0.5720000000000001 ms at 69.93007 MPix/s
+Get tile data group in 19.537 ms
+Fill spectral profile in 7339.609 ms
+Session 1 (Thu Apr  8 13:54:07 2021): Client 1 [127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

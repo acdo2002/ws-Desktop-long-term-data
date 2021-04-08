@@ -1,0 +1,30 @@
+./carta_backend: Version 2.0.0-dev.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Thu Apr  8 13:21:44 2021): Client 1 [127.0.0.1] Connected. Num sessions: 1
+Load 9600x9600 image to cache in 1060.859 ms at 86.87299 MPix/s
+Session 1 (Thu Apr  8 13:21:45 2021): Image has no beam information.
+Fill image histogram in 342.382 ms at 269.17303 MPix/s
+Fill spatial profile in 0.0 ms
+Fill spatial profile in 0.705 ms
+Mean filter 4096x4096 raster data to 256x256 in 112.533 ms at 0.5823714 MPix/s
+Compress 256x256 tile data in 0.919 ms at 71.312294 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 115.45700000000001 ms at 0.5676226 MPix/s
+Compress 256x256 tile data in 0.893 ms at 73.38858 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 38.431 ms at 0.58619344 MPix/s
+Compress 88x256 tile data in 0.294 ms at 76.62585 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 38.263 ms at 0.58876723 MPix/s
+Compress 256x88 tile data in 0.293 ms at 76.887375 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 173.606 ms at 0.37749848 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 173.711 ms at 0.37727028 MPix/s
+Compress 256x256 tile data in 0.93 ms at 70.46882 MPix/s
+Compress 256x256 tile data in 0.935 ms at 70.09198 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 38.203 ms at 0.58969194 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 38.12 ms at 0.5909759 MPix/s
+Compress 88x256 tile data in 0.294 ms at 76.62585 MPix/s
+Compress 256x88 tile data in 0.292 ms at 77.15069 MPix/s
+Mean filter 1408x1408 raster data to 88x88 in 13.104000000000001 ms at 0.5909646 MPix/s
+Compress 88x88 tile data in 0.10200000000000001 ms at 75.92157 MPix/s
+Get tile data group in 227.203 ms
+Fill cube histogram in 196556.35700000002 ms at 46.887318 MPix/s
+Session 1 (Thu Apr  8 13:25:02 2021): Client 1 [127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

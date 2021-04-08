@@ -1,0 +1,30 @@
+./carta_backend: Version 2.0.0-dev.4
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, 4 threads in worker thread pool and 4 OMP threads
+Session 1 (Thu Apr  8 13:21:13 2021): Client 1 [127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1231.507 ms at 85.19643 MPix/s
+Session 1 (Thu Apr  8 13:21:15 2021): Image has no beam information.
+Fill image histogram in 396.291 ms at 264.75494 MPix/s
+Fill spatial profile in 0.798 ms
+Mean filter 4096x4096 raster data to 256x256 in 112.266 ms at 0.58375645 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 112.62 ms at 0.5819215 MPix/s
+Compress 256x256 tile data in 0.987 ms at 66.39919 MPix/s
+Compress 256x256 tile data in 0.838 ms at 78.20525 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 11.406 ms at 0.58355254 MPix/s
+Compress 26x256 tile data in 0.075 ms at 88.746666 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 202.588 ms at 0.323494 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 202.596 ms at 0.3234812 MPix/s
+Compress 256x256 tile data in 1.528 ms at 42.890053 MPix/s
+Compress 256x256 tile data in 1.549 ms at 42.308586 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 108.665 ms at 0.59132195 MPix/s
+Compress 256x251 tile data in 0.8210000000000001 ms at 78.26553 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 20.441 ms at 0.32562009 MPix/s
+Compress 26x256 tile data in 0.07200000000000001 ms at 92.44444 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 11.179 ms at 0.58377314 MPix/s
+Compress 26x251 tile data in 0.019 ms at 343.4737 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 117.24900000000001 ms at 0.54803026 MPix/s
+Compress 256x251 tile data in 0.869 ms at 73.94246 MPix/s
+Get tile data group in 323.677 ms
+Mean filter 12200x8600 raster data to 3050x2150 in 93.59400000000001 ms at 70.063255 MPix/s
+Contoured 2150x3050 image in 236.449 ms at 27.733253259688137 MPix/s. Found 310790 vertices in 18159 segments across 5 levels
+Session 1 (Thu Apr  8 13:21:16 2021): Client 1 [127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

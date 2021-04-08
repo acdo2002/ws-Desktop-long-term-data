@@ -1,0 +1,34 @@
+[2021-04-06 22:34:49.066] [info] Writing to the log file: /home/mingyi/.carta/log/carta.log
+[2021-04-06 22:34:49.066] [info] /home/mingyi/carta-backend-dev/5c7df78/carta-backend/build/carta_backend: Version 2.0.0-dev.21.02.09
+[2021-04-06 22:34:49.079] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-04-06 22:34:57.132] [debug] 0x560e0cbd1140 ::Session (1)
+[2021-04-06 22:34:57.132] [info] Session 1 [127.0.0.1] Connected. Num sessions: 1
+[2021-04-06 22:34:58.334] [trace] Load 8600x12200 image to cache in 1057.878 ms at 99.17968 MPix/s
+[2021-04-06 22:34:58.334] [warning] Session 1: Image has no beam information.
+[2021-04-06 22:34:58.416] [trace] Fill image histogram in 81.575 ms at 1286.1783 MPix/s
+[2021-04-06 22:34:58.428] [trace] Fill spatial profile in 0 ms
+[2021-04-06 22:34:58.430] [trace] Fill spatial profile in 1.299 ms
+[2021-04-06 22:34:58.442] [trace] Mean filter 4096x4096 raster data to 256x256 in 13.954 ms at 4.6965747 MPix/s
+[2021-04-06 22:34:58.442] [trace] Mean filter 4096x4096 raster data to 256x256 in 14.224 ms at 4.6074243 MPix/s
+[2021-04-06 22:34:58.443] [trace] Compress 256x256 tile data in 1.048 ms at 62.53435 MPix/s
+[2021-04-06 22:34:58.444] [trace] Compress 256x256 tile data in 0.997 ms at 65.7332 MPix/s
+[2021-04-06 22:34:58.445] [trace] Mean filter 4096x4096 raster data to 256x256 in 16.975 ms at 3.8607364 MPix/s
+[2021-04-06 22:34:58.446] [trace] Mean filter 4096x4096 raster data to 256x256 in 17.327 ms at 3.782305 MPix/s
+[2021-04-06 22:34:58.446] [trace] Mean filter 4096x408 raster data to 256x26 in 2.2800000000000002 ms at 2.9192982 MPix/s
+[2021-04-06 22:34:58.446] [trace] Compress 26x256 tile data in 0.046 ms at 144.69565 MPix/s
+[2021-04-06 22:34:58.446] [trace] Compress 256x256 tile data in 1.051 ms at 62.35585 MPix/s
+[2021-04-06 22:34:58.447] [trace] Compress 256x256 tile data in 0.933 ms at 70.242226 MPix/s
+[2021-04-06 22:34:58.449] [trace] Mean filter 4096x408 raster data to 256x26 in 2.836 ms at 2.3469675 MPix/s
+[2021-04-06 22:34:58.450] [trace] Compress 26x256 tile data in 0.074 ms at 89.945946 MPix/s
+[2021-04-06 22:34:58.452] [trace] Mean filter 4008x4096 raster data to 251x256 in 8.547 ms at 7.5179596 MPix/s
+[2021-04-06 22:34:58.453] [trace] Compress 256x251 tile data in 0.91 ms at 70.61099 MPix/s
+[2021-04-06 22:34:58.454] [trace] Mean filter 4008x4096 raster data to 251x256 in 7.804 ms at 8.2337265 MPix/s
+[2021-04-06 22:34:58.455] [trace] Compress 256x251 tile data in 0.8170000000000001 ms at 78.64871 MPix/s
+[2021-04-06 22:34:58.456] [trace] Mean filter 4008x408 raster data to 251x26 in 0.81 ms at 8.05679 MPix/s
+[2021-04-06 22:34:58.456] [trace] Compress 26x251 tile data in 0.018000000000000002 ms at 362.55554 MPix/s
+[2021-04-06 22:34:58.456] [trace] Get tile data group in 28.036 ms
+[2021-04-06 22:34:59.821] [trace] Contoured 8600x12200 image in 1362.909 ms at 76.98239574322277 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+[2021-04-06 22:34:59.823] [debug] WebSocket closed with code 1005 and message ''.
+[2021-04-06 22:34:59.823] [info] Client 1 [127.0.0.1] Deleted. Remaining sessions: 1
+[2021-04-06 22:34:59.823] [debug] 0x560e0cbd1140 ~Session 0
+[2021-04-06 22:34:59.823] [info] No remaining sessions.

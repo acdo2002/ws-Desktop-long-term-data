@@ -1,0 +1,30 @@
+./carta_backend: Version 2.0.0-dev.21.01.22
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+Session 1 (Wed Apr  7 16:21:22 2021): Client 1 [127.0.0.1] Connected. Num sessions: 1
+Keyword Error:  name = EXTEND of type  LONG  and value 1
+	Keyword value has wrong data type.
+Load 9600x9600 image to cache in 1473.968 ms at 62.5251 MPix/s
+Session 1 (Wed Apr  7 16:21:24 2021): Image has no beam information.
+Fill spatial profile in 0.001 ms
+Fill spatial profile in 0.6960000000000001 ms
+Mean filter 4096x4096 raster data to 256x256 in 64.21600000000001 ms at 1.0205556 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 64.292 ms at 1.0193492 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 64.34100000000001 ms at 1.0185729 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 64.559 ms at 1.0151335 MPix/s
+Compress 256x256 tile data in 0.9530000000000001 ms at 68.7681 MPix/s
+Compress 256x256 tile data in 0.936 ms at 70.0171 MPix/s
+Compress 256x256 tile data in 0.9460000000000001 ms at 69.276955 MPix/s
+Compress 256x256 tile data in 0.9470000000000001 ms at 69.203804 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 21.878 ms at 1.0297102 MPix/s
+Mean filter 1408x4096 raster data to 88x256 in 21.830000000000002 ms at 1.0319743 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 22.136 ms at 1.0177087 MPix/s
+Compress 256x88 tile data in 0.293 ms at 76.887375 MPix/s
+Compress 256x88 tile data in 0.294 ms at 76.62585 MPix/s
+Compress 88x256 tile data in 0.331 ms at 68.060425 MPix/s
+Mean filter 4096x1408 raster data to 256x88 in 22.29 ms at 1.0106775 MPix/s
+Compress 88x256 tile data in 0.31 ms at 72.67097 MPix/s
+Mean filter 1408x1408 raster data to 88x88 in 7.66 ms at 1.0109661 MPix/s
+Compress 88x88 tile data in 0.10200000000000001 ms at 75.92157 MPix/s
+Get tile data group in 95.877 ms
+Session 1 (Wed Apr  7 16:21:24 2021): Client 1 [127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.

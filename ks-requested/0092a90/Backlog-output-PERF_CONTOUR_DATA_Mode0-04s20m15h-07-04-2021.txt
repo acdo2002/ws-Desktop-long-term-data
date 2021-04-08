@@ -1,0 +1,30 @@
+./carta_backend: Version 2.0.0-dev.21.01.22
+Listening on port 3006 with root folder /home/mingyi/carta-test-img, base folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+Session 1 (Wed Apr  7 15:23:51 2021): Client 1 [127.0.0.1] Connected. Num sessions: 1
+Load 8600x12200 image to cache in 1222.0140000000001 ms at 85.85826 MPix/s
+Session 1 (Wed Apr  7 15:23:53 2021): Image has no beam information.
+Fill image histogram in 384.622 ms at 272.78732 MPix/s
+Fill spatial profile in 0.0 ms
+Fill spatial profile in 0.806 ms
+Mean filter 4096x4096 raster data to 256x256 in 64.828 ms at 1.0109212 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 64.926 ms at 1.0093954 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 64.921 ms at 1.0094731 MPix/s
+Mean filter 4096x4096 raster data to 256x256 in 64.986 ms at 1.0084634 MPix/s
+Compress 256x256 tile data in 0.888 ms at 73.8018 MPix/s
+Compress 256x256 tile data in 0.966 ms at 67.84265 MPix/s
+Compress 256x256 tile data in 0.984 ms at 66.60162 MPix/s
+Compress 256x256 tile data in 0.9520000000000001 ms at 68.84034 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 6.8 ms at 0.97882354 MPix/s
+Compress 26x256 tile data in 0.077 ms at 86.44156 MPix/s
+Mean filter 4096x408 raster data to 256x26 in 6.781000000000001 ms at 0.98156613 MPix/s
+Compress 26x256 tile data in 0.045 ms at 147.91112 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 62.621 ms at 1.0261095 MPix/s
+Mean filter 4008x4096 raster data to 251x256 in 62.761 ms at 1.0238205 MPix/s
+Compress 256x251 tile data in 0.869 ms at 73.94246 MPix/s
+Compress 256x251 tile data in 0.8170000000000001 ms at 78.64871 MPix/s
+Mean filter 4008x408 raster data to 251x26 in 6.454 ms at 1.0111558 MPix/s
+Compress 26x251 tile data in 0.019 ms at 343.4737 MPix/s
+Get tile data group in 136.924 ms
+Contoured 8600x12200 image in 5334.176 ms at 19.66939223602671 MPix/s. Found 433366 vertices in 18921 segments across 5 levels
+Session 1 (Wed Apr  7 15:23:58 2021): Client 1 [127.0.0.1] Disconnected. Remaining sessions: 1
+No remaining sessions.
