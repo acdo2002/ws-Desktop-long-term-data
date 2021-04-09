@@ -1,0 +1,26 @@
+[999D[KPASS src/test/PERF_ANIMATION_PLAYBACK_HDF5.test.ts (72.803s)
+  PERF_ANIMATION_PLAYBACK
+    for "cube_B_09600_z00100.hdf5"
+      ✓ CARTA is ready & Send a Session: (11ms)
+      Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.hdf5":": 
+        ✓ (Step 1)"cube_B_09600_z00100.hdf5" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms (1053ms)
+        ✓ (Step 1)"cube_B_09600_z00100.hdf5" SetImageChannels & SetCursor responses should arrive within 7000 ms (89ms)
+        Play some channels forwardly
+          ✓ (Step 2)"cube_B_09600_z00100.hdf5" Image should return within 600000: (59500ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        72.826s
+Ran all test suites matching /PERF_ANIMATION_PLAYBACK_HDF5.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+
+[33m[39m
+[33m   ╭───────────────────────────────────────────────────────────────╮[39m
+   [33m│[39m                                                               [33m│[39m
+   [33m│[39m      New [31mmajor[39m version of npm available! [31m6.14.11[39m → [32m7.8.0[39m      [33m│[39m
+   [33m│[39m   [33mChangelog:[39m [36mhttps://github.com/npm/cli/releases/tag/v7.8.0[39m   [33m│[39m
+   [33m│[39m               Run [32mnpm install -g npm[39m to update!               [33m│[39m
+   [33m│[39m                                                               [33m│[39m
+[33m   ╰───────────────────────────────────────────────────────────────╯[39m
+[33m[39m
