@@ -1,0 +1,16 @@
+[999D[KPASS src/test/PERF_RASTER_TILE_DATA_HDF5.test.ts (13.519s)
+  PERF_RASTER_TILE_DATA
+    for "cube_B_09600_z00100.hdf5"
+      ✓ CARTA is ready & Send a Session: (10ms)
+      Go to "set_QA_performance" folder
+        open the file "set_QA_performance/cube_B/cube_B_09600_z00100.hdf5"
+          ✓ (Step 1)"cube_B_09600_z00100.hdf5" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 5000 ms (1175ms)
+          ✓ (Step 1)"cube_B_09600_z00100.hdf5" SetImageChannels & SetCursor responses should arrive within 5000 ms (85ms)
+          ✓ (Step 2)"cube_B_09600_z00100.hdf5" RasterTileData responses should arrive within 5000 ms (28ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        13.54s
+Ran all test suites matching /PERF_RASTER_TILE_DATA_HDF5.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
