@@ -1,0 +1,44 @@
+[2021-05-22 02:08:53.248] [info] Writing to the log file: /home/mingyi/.carta/log/carta.log
+[2021-05-22 02:08:53.249] [debug] Using command-line settings
+[2021-05-22 02:08:53.249] [info] /home/mingyi/carta-backend-dev/version2.0/carta-backend/build/carta_backend: Version 2.0.0-beta.0
+[2021-05-22 02:08:53.262] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-05-22 02:09:01.416] [debug] 0x55560a1763e0 ::Session (1)
+[2021-05-22 02:09:01.416] [info] Session 1 [127.0.0.1] Connected. Num sessions: 1
+[2021-05-22 02:09:02.522] [debug] [performance] Load 9600x9600 image to cache in 1054.708 ms at 87.380 MPix/s
+[2021-05-22 02:09:02.522] [warning] Session 1: Image has no beam information.
+[2021-05-22 02:09:02.595] [debug] [performance] Fill image histogram in 72.652 ms at 1268.513 MPix/s
+[2021-05-22 02:09:02.599] [debug] [performance] Fill spatial profile in 0.000 ms
+[2021-05-22 02:09:02.600] [debug] [performance] Fill spatial profile in 0.178 ms
+[2021-05-22 02:09:02.616] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 15.810 ms at 4.145 MPix/s
+[2021-05-22 02:09:02.616] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 15.861 ms at 4.132 MPix/s
+[2021-05-22 02:09:02.616] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 15.903 ms at 4.121 MPix/s
+[2021-05-22 02:09:02.616] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 15.947 ms at 4.110 MPix/s
+[2021-05-22 02:09:02.618] [debug] The compression ratio for tile (layer:2, x:1, y:1) is 6.720.
+[2021-05-22 02:09:02.618] [debug] The compression ratio for tile (layer:2, x:0, y:1) is 6.297.
+[2021-05-22 02:09:02.618] [debug] [performance] Compress 256x256 tile data in 1.574 ms at 41.637 MPix/s
+[2021-05-22 02:09:02.618] [debug] [performance] Compress 256x256 tile data in 1.561 ms at 41.983 MPix/s
+[2021-05-22 02:09:02.618] [debug] The compression ratio for tile (layer:2, x:0, y:0) is 6.010.
+[2021-05-22 02:09:02.618] [debug] The compression ratio for tile (layer:2, x:1, y:0) is 6.302.
+[2021-05-22 02:09:02.618] [debug] [performance] Compress 256x256 tile data in 1.499 ms at 43.720 MPix/s
+[2021-05-22 02:09:02.618] [debug] [performance] Compress 256x256 tile data in 1.527 ms at 42.918 MPix/s
+[2021-05-22 02:09:02.623] [debug] [performance] Mean filter 1408x4096 raster data to 88x256 in 5.056 ms at 4.456 MPix/s
+[2021-05-22 02:09:02.623] [debug] [performance] Mean filter 1408x4096 raster data to 88x256 in 5.066 ms at 4.447 MPix/s
+[2021-05-22 02:09:02.623] [debug] The compression ratio for tile (layer:2, x:1, y:2) is 6.007.
+[2021-05-22 02:09:02.623] [debug] [performance] Compress 256x88 tile data in 0.510 ms at 44.173 MPix/s
+[2021-05-22 02:09:02.623] [debug] The compression ratio for tile (layer:2, x:0, y:2) is 5.680.
+[2021-05-22 02:09:02.623] [debug] [performance] Compress 256x88 tile data in 0.500 ms at 45.056 MPix/s
+[2021-05-22 02:09:02.623] [debug] [performance] Mean filter 4096x1408 raster data to 256x88 in 5.732 ms at 3.930 MPix/s
+[2021-05-22 02:09:02.623] [debug] [performance] Mean filter 4096x1408 raster data to 256x88 in 5.747 ms at 3.920 MPix/s
+[2021-05-22 02:09:02.624] [debug] The compression ratio for tile (layer:2, x:2, y:1) is 5.995.
+[2021-05-22 02:09:02.624] [debug] [performance] Compress 88x256 tile data in 0.503 ms at 44.787 MPix/s
+[2021-05-22 02:09:02.624] [debug] The compression ratio for tile (layer:2, x:2, y:0) is 5.700.
+[2021-05-22 02:09:02.624] [debug] [performance] Compress 88x256 tile data in 0.494 ms at 45.603 MPix/s
+[2021-05-22 02:09:02.624] [debug] [performance] Mean filter 1408x1408 raster data to 88x88 in 0.898 ms at 8.624 MPix/s
+[2021-05-22 02:09:02.624] [debug] The compression ratio for tile (layer:2, x:2, y:2) is 5.290.
+[2021-05-22 02:09:02.624] [debug] [performance] Compress 88x88 tile data in 0.115 ms at 67.339 MPix/s
+[2021-05-22 02:09:02.624] [debug] [performance] Get tile data group in 24.381 ms
+[2021-05-22 02:11:52.747] [debug] [performance] Fill cube histogram in 170120.258 ms at 54.173 MPix/s
+[2021-05-22 02:11:52.751] [debug] WebSocket closed with code 1005 and message ''.
+[2021-05-22 02:11:52.751] [info] Client 1 [127.0.0.1] Deleted. Remaining sessions: 1
+[2021-05-22 02:11:52.751] [debug] 0x55560a1763e0 ~Session 0
+[2021-05-22 02:11:52.751] [info] No remaining sessions.

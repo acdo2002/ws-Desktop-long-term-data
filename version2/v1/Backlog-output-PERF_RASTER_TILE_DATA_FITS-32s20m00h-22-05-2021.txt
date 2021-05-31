@@ -1,0 +1,182 @@
+[2021-05-22 00:22:02.375] [info] Writing to the log file: /home/mingyi/.carta/log/carta.log
+[2021-05-22 00:22:02.376] [debug] Using command-line settings
+[2021-05-22 00:22:02.376] [info] /home/mingyi/carta-backend-dev/version2.0/carta-backend/build/carta_backend: Version 2.0.0-beta.0
+[2021-05-22 00:22:02.389] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-05-22 00:22:10.465] [debug] 0x55bf7793f3e0 ::Session (1)
+[2021-05-22 00:22:10.465] [info] Session 1 [127.0.0.1] Connected. Num sessions: 1
+[2021-05-22 00:22:11.571] [debug] [performance] Load 9600x9600 image to cache in 1054.242 ms at 87.418 MPix/s
+[2021-05-22 00:22:11.571] [warning] Session 1: Image has no beam information.
+[2021-05-22 00:22:11.644] [debug] [performance] Fill image histogram in 72.636 ms at 1268.792 MPix/s
+[2021-05-22 00:22:11.649] [debug] [performance] Fill spatial profile in 0.000 ms
+[2021-05-22 00:22:11.649] [debug] [performance] Fill spatial profile in 0.181 ms
+[2021-05-22 00:22:11.708] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 59.283 ms at 0.380 MPix/s
+[2021-05-22 00:22:11.709] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 8.352.
+[2021-05-22 00:22:11.709] [debug] [performance] Compress 150x150 tile data in 0.344 ms at 65.407 MPix/s
+[2021-05-22 00:22:11.709] [debug] [performance] Get tile data group in 59.801 ms
+[2021-05-22 00:22:11.712] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.142 ms at 57.387 MPix/s
+[2021-05-22 00:22:11.712] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.101 ms at 59.524 MPix/s
+[2021-05-22 00:22:11.712] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.147 ms at 57.137 MPix/s
+[2021-05-22 00:22:11.712] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.145 ms at 57.237 MPix/s
+[2021-05-22 00:22:11.713] [debug] The compression ratio for tile (layer:4, x:4, y:4) is 6.058.
+[2021-05-22 00:22:11.713] [debug] [performance] Compress 256x256 tile data in 1.527 ms at 42.918 MPix/s
+[2021-05-22 00:22:11.713] [debug] The compression ratio for tile (layer:4, x:5, y:4) is 5.576.
+[2021-05-22 00:22:11.713] [debug] [performance] Compress 256x256 tile data in 1.535 ms at 42.694 MPix/s
+[2021-05-22 00:22:11.713] [debug] The compression ratio for tile (layer:4, x:4, y:5) is 5.559.
+[2021-05-22 00:22:11.713] [debug] The compression ratio for tile (layer:4, x:5, y:5) is 5.314.
+[2021-05-22 00:22:11.713] [debug] [performance] Compress 256x256 tile data in 1.549 ms at 42.309 MPix/s
+[2021-05-22 00:22:11.713] [debug] [performance] Compress 256x256 tile data in 1.535 ms at 42.694 MPix/s
+[2021-05-22 00:22:11.715] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.183 ms at 55.398 MPix/s
+[2021-05-22 00:22:11.715] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.191 ms at 55.026 MPix/s
+[2021-05-22 00:22:11.715] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.178 ms at 55.633 MPix/s
+[2021-05-22 00:22:11.715] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.176 ms at 55.728 MPix/s
+[2021-05-22 00:22:11.716] [debug] The compression ratio for tile (layer:4, x:3, y:4) is 5.282.
+[2021-05-22 00:22:11.716] [debug] [performance] Compress 256x256 tile data in 1.499 ms at 43.720 MPix/s
+[2021-05-22 00:22:11.716] [debug] The compression ratio for tile (layer:4, x:3, y:5) is 5.215.
+[2021-05-22 00:22:11.716] [debug] [performance] Compress 256x256 tile data in 1.502 ms at 43.632 MPix/s
+[2021-05-22 00:22:11.716] [debug] The compression ratio for tile (layer:4, x:5, y:3) is 5.225.
+[2021-05-22 00:22:11.716] [debug] [performance] Compress 256x256 tile data in 1.495 ms at 43.837 MPix/s
+[2021-05-22 00:22:11.716] [debug] The compression ratio for tile (layer:4, x:4, y:3) is 5.281.
+[2021-05-22 00:22:11.716] [debug] [performance] Compress 256x256 tile data in 1.503 ms at 43.603 MPix/s
+[2021-05-22 00:22:11.717] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.144 ms at 57.287 MPix/s
+[2021-05-22 00:22:11.717] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.152 ms at 56.889 MPix/s
+[2021-05-22 00:22:11.717] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.143 ms at 57.337 MPix/s
+[2021-05-22 00:22:11.717] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.143 ms at 57.337 MPix/s
+[2021-05-22 00:22:11.719] [debug] The compression ratio for tile (layer:4, x:3, y:3) is 5.210.
+[2021-05-22 00:22:11.719] [debug] [performance] Compress 256x256 tile data in 1.493 ms at 43.896 MPix/s
+[2021-05-22 00:22:11.719] [debug] The compression ratio for tile (layer:4, x:6, y:4) is 5.203.
+[2021-05-22 00:22:11.719] [debug] [performance] Compress 256x256 tile data in 1.483 ms at 44.192 MPix/s
+[2021-05-22 00:22:11.719] [debug] The compression ratio for tile (layer:4, x:5, y:6) is 5.186.
+[2021-05-22 00:22:11.719] [debug] [performance] Compress 256x256 tile data in 1.489 ms at 44.013 MPix/s
+[2021-05-22 00:22:11.719] [debug] The compression ratio for tile (layer:4, x:4, y:6) is 5.209.
+[2021-05-22 00:22:11.719] [debug] [performance] Compress 256x256 tile data in 1.497 ms at 43.778 MPix/s
+[2021-05-22 00:22:11.720] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.201 ms at 54.568 MPix/s
+[2021-05-22 00:22:11.720] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.195 ms at 54.842 MPix/s
+[2021-05-22 00:22:11.720] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.189 ms at 55.119 MPix/s
+[2021-05-22 00:22:11.720] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.200 ms at 54.613 MPix/s
+[2021-05-22 00:22:11.722] [debug] The compression ratio for tile (layer:4, x:6, y:5) is 5.190.
+[2021-05-22 00:22:11.722] [debug] [performance] Compress 256x256 tile data in 1.487 ms at 44.073 MPix/s
+[2021-05-22 00:22:11.722] [debug] The compression ratio for tile (layer:4, x:6, y:3) is 5.137.
+[2021-05-22 00:22:11.722] [debug] [performance] Compress 256x256 tile data in 1.487 ms at 44.073 MPix/s
+[2021-05-22 00:22:11.722] [debug] The compression ratio for tile (layer:4, x:2, y:4) is 5.092.
+[2021-05-22 00:22:11.722] [debug] [performance] Compress 256x256 tile data in 1.490 ms at 43.984 MPix/s
+[2021-05-22 00:22:11.722] [debug] The compression ratio for tile (layer:4, x:3, y:6) is 5.126.
+[2021-05-22 00:22:11.722] [debug] [performance] Compress 256x256 tile data in 1.488 ms at 44.043 MPix/s
+[2021-05-22 00:22:11.723] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.118 ms at 58.619 MPix/s
+[2021-05-22 00:22:11.723] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.163 ms at 56.351 MPix/s
+[2021-05-22 00:22:11.723] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.165 ms at 56.254 MPix/s
+[2021-05-22 00:22:11.723] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.168 ms at 56.110 MPix/s
+[2021-05-22 00:22:11.725] [debug] The compression ratio for tile (layer:4, x:5, y:2) is 5.010.
+[2021-05-22 00:22:11.725] [debug] [performance] Compress 256x256 tile data in 1.490 ms at 43.984 MPix/s
+[2021-05-22 00:22:11.725] [debug] The compression ratio for tile (layer:4, x:4, y:2) is 5.103.
+[2021-05-22 00:22:11.725] [debug] [performance] Compress 256x256 tile data in 1.488 ms at 44.043 MPix/s
+[2021-05-22 00:22:11.725] [debug] The compression ratio for tile (layer:4, x:2, y:5) is 5.015.
+[2021-05-22 00:22:11.725] [debug] [performance] Compress 256x256 tile data in 1.494 ms at 43.866 MPix/s
+[2021-05-22 00:22:11.725] [debug] The compression ratio for tile (layer:4, x:2, y:3) is 4.903.
+[2021-05-22 00:22:11.725] [debug] [performance] Compress 256x256 tile data in 1.489 ms at 44.013 MPix/s
+[2021-05-22 00:22:11.726] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.192 ms at 54.980 MPix/s
+[2021-05-22 00:22:11.726] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.190 ms at 55.072 MPix/s
+[2021-05-22 00:22:11.726] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.191 ms at 55.026 MPix/s
+[2021-05-22 00:22:11.726] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.191 ms at 55.026 MPix/s
+[2021-05-22 00:22:11.727] [debug] The compression ratio for tile (layer:4, x:4, y:7) is 4.697.
+[2021-05-22 00:22:11.727] [debug] [performance] Compress 256x256 tile data in 1.496 ms at 43.807 MPix/s
+[2021-05-22 00:22:11.727] [debug] The compression ratio for tile (layer:4, x:3, y:2) is 4.905.
+[2021-05-22 00:22:11.727] [debug] [performance] Compress 256x256 tile data in 1.497 ms at 43.778 MPix/s
+[2021-05-22 00:22:11.727] [debug] The compression ratio for tile (layer:4, x:6, y:6) is 4.845.
+[2021-05-22 00:22:11.727] [debug] [performance] Compress 256x256 tile data in 1.484 ms at 44.162 MPix/s
+[2021-05-22 00:22:11.727] [debug] The compression ratio for tile (layer:4, x:7, y:4) is 4.693.
+[2021-05-22 00:22:11.727] [debug] [performance] Compress 256x256 tile data in 1.526 ms at 42.946 MPix/s
+[2021-05-22 00:22:11.729] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.201 ms at 54.568 MPix/s
+[2021-05-22 00:22:11.729] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.203 ms at 54.477 MPix/s
+[2021-05-22 00:22:11.729] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.205 ms at 54.387 MPix/s
+[2021-05-22 00:22:11.729] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.201 ms at 54.568 MPix/s
+[2021-05-22 00:22:11.730] [debug] The compression ratio for tile (layer:4, x:5, y:7) is 4.627.
+[2021-05-22 00:22:11.730] [debug] [performance] Compress 256x256 tile data in 1.484 ms at 44.162 MPix/s
+[2021-05-22 00:22:11.730] [debug] The compression ratio for tile (layer:4, x:2, y:6) is 4.662.
+[2021-05-22 00:22:11.730] [debug] [performance] Compress 256x256 tile data in 1.492 ms at 43.925 MPix/s
+[2021-05-22 00:22:11.730] [debug] The compression ratio for tile (layer:4, x:6, y:2) is 4.666.
+[2021-05-22 00:22:11.730] [debug] [performance] Compress 256x256 tile data in 1.487 ms at 44.073 MPix/s
+[2021-05-22 00:22:11.730] [debug] The compression ratio for tile (layer:4, x:7, y:5) is 4.632.
+[2021-05-22 00:22:11.730] [debug] [performance] Compress 256x256 tile data in 1.486 ms at 44.102 MPix/s
+[2021-05-22 00:22:11.731] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.211 ms at 54.117 MPix/s
+[2021-05-22 00:22:11.731] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.219 ms at 53.762 MPix/s
+[2021-05-22 00:22:11.732] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.221 ms at 53.674 MPix/s
+[2021-05-22 00:22:11.732] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.209 ms at 54.207 MPix/s
+[2021-05-22 00:22:11.733] [debug] The compression ratio for tile (layer:4, x:3, y:7) is 4.589.
+[2021-05-22 00:22:11.733] [debug] [performance] Compress 256x256 tile data in 1.487 ms at 44.073 MPix/s
+[2021-05-22 00:22:11.733] [debug] The compression ratio for tile (layer:4, x:2, y:2) is 4.580.
+[2021-05-22 00:22:11.733] [debug] [performance] Compress 256x256 tile data in 1.489 ms at 44.013 MPix/s
+[2021-05-22 00:22:11.733] [debug] The compression ratio for tile (layer:4, x:7, y:3) is 4.590.
+[2021-05-22 00:22:11.733] [debug] [performance] Compress 256x256 tile data in 1.483 ms at 44.192 MPix/s
+[2021-05-22 00:22:11.733] [debug] The compression ratio for tile (layer:4, x:1, y:4) is 4.557.
+[2021-05-22 00:22:11.733] [debug] [performance] Compress 256x256 tile data in 1.482 ms at 44.221 MPix/s
+[2021-05-22 00:22:11.734] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.185 ms at 55.305 MPix/s
+[2021-05-22 00:22:11.734] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.193 ms at 54.934 MPix/s
+[2021-05-22 00:22:11.734] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.197 ms at 54.750 MPix/s
+[2021-05-22 00:22:11.734] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.206 ms at 54.342 MPix/s
+[2021-05-22 00:22:11.736] [debug] The compression ratio for tile (layer:4, x:1, y:5) is 4.571.
+[2021-05-22 00:22:11.736] [debug] [performance] Compress 256x256 tile data in 1.492 ms at 43.925 MPix/s
+[2021-05-22 00:22:11.736] [debug] The compression ratio for tile (layer:4, x:7, y:6) is 4.561.
+[2021-05-22 00:22:11.736] [debug] [performance] Compress 256x256 tile data in 1.508 ms at 43.459 MPix/s
+[2021-05-22 00:22:11.736] [debug] The compression ratio for tile (layer:4, x:6, y:7) is 4.557.
+[2021-05-22 00:22:11.736] [debug] [performance] Compress 256x256 tile data in 1.484 ms at 44.162 MPix/s
+[2021-05-22 00:22:11.736] [debug] The compression ratio for tile (layer:4, x:1, y:3) is 4.560.
+[2021-05-22 00:22:11.736] [debug] [performance] Compress 256x256 tile data in 1.488 ms at 44.043 MPix/s
+[2021-05-22 00:22:11.737] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.189 ms at 55.119 MPix/s
+[2021-05-22 00:22:11.737] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.188 ms at 55.165 MPix/s
+[2021-05-22 00:22:11.737] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.201 ms at 54.568 MPix/s
+[2021-05-22 00:22:11.737] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.198 ms at 54.705 MPix/s
+[2021-05-22 00:22:11.739] [debug] The compression ratio for tile (layer:4, x:2, y:7) is 4.563.
+[2021-05-22 00:22:11.739] [debug] The compression ratio for tile (layer:4, x:1, y:6) is 4.552.
+[2021-05-22 00:22:11.739] [debug] [performance] Compress 256x256 tile data in 1.483 ms at 44.192 MPix/s
+[2021-05-22 00:22:11.739] [debug] [performance] Compress 256x256 tile data in 1.487 ms at 44.073 MPix/s
+[2021-05-22 00:22:11.739] [debug] The compression ratio for tile (layer:4, x:7, y:2) is 4.557.
+[2021-05-22 00:22:11.739] [debug] The compression ratio for tile (layer:4, x:8, y:4) is 4.558.
+[2021-05-22 00:22:11.739] [debug] [performance] Compress 256x256 tile data in 1.489 ms at 44.013 MPix/s
+[2021-05-22 00:22:11.739] [debug] [performance] Compress 256x256 tile data in 1.488 ms at 44.043 MPix/s
+[2021-05-22 00:22:11.740] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.181 ms at 55.492 MPix/s
+[2021-05-22 00:22:11.740] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.191 ms at 55.026 MPix/s
+[2021-05-22 00:22:11.740] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.186 ms at 55.258 MPix/s
+[2021-05-22 00:22:11.740] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.195 ms at 54.842 MPix/s
+[2021-05-22 00:22:11.741] [debug] The compression ratio for tile (layer:4, x:7, y:7) is 4.560.
+[2021-05-22 00:22:11.741] [debug] [performance] Compress 256x256 tile data in 1.480 ms at 44.281 MPix/s
+[2021-05-22 00:22:11.741] [debug] The compression ratio for tile (layer:4, x:1, y:2) is 4.548.
+[2021-05-22 00:22:11.741] [debug] [performance] Compress 256x256 tile data in 1.490 ms at 43.984 MPix/s
+[2021-05-22 00:22:11.742] [debug] The compression ratio for tile (layer:4, x:8, y:3) is 4.553.
+[2021-05-22 00:22:11.742] [debug] [performance] Compress 256x256 tile data in 1.482 ms at 44.221 MPix/s
+[2021-05-22 00:22:11.742] [debug] The compression ratio for tile (layer:4, x:8, y:5) is 4.559.
+[2021-05-22 00:22:11.742] [debug] [performance] Compress 256x256 tile data in 1.481 ms at 44.251 MPix/s
+[2021-05-22 00:22:11.743] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.181 ms at 55.492 MPix/s
+[2021-05-22 00:22:11.743] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.185 ms at 55.305 MPix/s
+[2021-05-22 00:22:11.743] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.173 ms at 55.870 MPix/s
+[2021-05-22 00:22:11.743] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.190 ms at 55.072 MPix/s
+[2021-05-22 00:22:11.744] [debug] The compression ratio for tile (layer:4, x:1, y:7) is 4.559.
+[2021-05-22 00:22:11.744] [debug] [performance] Compress 256x256 tile data in 1.480 ms at 44.281 MPix/s
+[2021-05-22 00:22:11.744] [debug] The compression ratio for tile (layer:4, x:0, y:4) is 4.559.
+[2021-05-22 00:22:11.744] [debug] [performance] Compress 256x256 tile data in 1.481 ms at 44.251 MPix/s
+[2021-05-22 00:22:11.744] [debug] The compression ratio for tile (layer:4, x:0, y:5) is 4.555.
+[2021-05-22 00:22:11.744] [debug] [performance] Compress 256x256 tile data in 1.481 ms at 44.251 MPix/s
+[2021-05-22 00:22:11.744] [debug] The compression ratio for tile (layer:4, x:8, y:6) is 4.559.
+[2021-05-22 00:22:11.744] [debug] [performance] Compress 256x256 tile data in 1.482 ms at 44.221 MPix/s
+[2021-05-22 00:22:11.745] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.184 ms at 55.351 MPix/s
+[2021-05-22 00:22:11.745] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.195 ms at 54.842 MPix/s
+[2021-05-22 00:22:11.746] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.199 ms at 54.659 MPix/s
+[2021-05-22 00:22:11.746] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 1.194 ms at 54.888 MPix/s
+[2021-05-22 00:22:11.747] [debug] The compression ratio for tile (layer:4, x:0, y:6) is 4.552.
+[2021-05-22 00:22:11.747] [debug] [performance] Compress 256x256 tile data in 1.483 ms at 44.192 MPix/s
+[2021-05-22 00:22:11.747] [debug] The compression ratio for tile (layer:4, x:0, y:3) is 4.555.
+[2021-05-22 00:22:11.747] [debug] [performance] Compress 256x256 tile data in 1.472 ms at 44.522 MPix/s
+[2021-05-22 00:22:11.747] [debug] The compression ratio for tile (layer:4, x:0, y:2) is 4.552.
+[2021-05-22 00:22:11.747] [debug] [performance] Compress 256x256 tile data in 1.485 ms at 44.132 MPix/s
+[2021-05-22 00:22:11.747] [debug] The compression ratio for tile (layer:4, x:8, y:2) is 4.562.
+[2021-05-22 00:22:11.747] [debug] [performance] Compress 256x256 tile data in 1.484 ms at 44.162 MPix/s
+[2021-05-22 00:22:11.748] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 0.911 ms at 71.939 MPix/s
+[2021-05-22 00:22:11.748] [debug] [performance] Mean filter 1024x1024 raster data to 256x256 in 0.881 ms at 74.388 MPix/s
+[2021-05-22 00:22:11.749] [debug] The compression ratio for tile (layer:4, x:8, y:7) is 4.556.
+[2021-05-22 00:22:11.749] [debug] [performance] Compress 256x256 tile data in 0.963 ms at 68.054 MPix/s
+[2021-05-22 00:22:11.749] [debug] The compression ratio for tile (layer:4, x:0, y:7) is 4.535.
+[2021-05-22 00:22:11.749] [debug] [performance] Compress 256x256 tile data in 0.965 ms at 67.913 MPix/s
+[2021-05-22 00:22:11.749] [debug] [performance] Get tile data group in 38.485 ms
+[2021-05-22 00:22:11.750] [debug] WebSocket closed with code 1005 and message ''.
+[2021-05-22 00:22:11.750] [info] Client 1 [127.0.0.1] Deleted. Remaining sessions: 1
+[2021-05-22 00:22:11.750] [debug] 0x55bf7793f3e0 ~Session 0
+[2021-05-22 00:22:11.750] [info] No remaining sessions.
