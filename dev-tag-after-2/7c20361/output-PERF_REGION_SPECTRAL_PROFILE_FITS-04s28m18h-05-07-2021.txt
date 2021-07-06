@@ -1,0 +1,17 @@
+[999D[KPASS src/test/PERF_REGION_SPECTRAL_PROFILE_FITS.test.ts (21.137s)
+  PERF_REGION_SPECTRAL_PROFILE
+    for "cube_B_01600_z01000.fits"
+      ✓ CARTA is ready & Send a Session: (15ms)
+      Go to "set_QA_performance" folder
+        open the file "set_QA_performance/cube_B/cube_B_01600_z01000.fits"
+          ✓ (Step 1)"cube_B_01600_z01000.fits" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 2100 ms (108ms)
+          ✓ (Step 1)"cube_B_01600_z01000.fits" SetImageChannels & SetCursor responses should arrive within 4100 ms (5ms)
+          ✓ (Step 2)"cube_B_01600_z01000.fits" SET_REGION_ACK should arrive within 500 ms
+          ✓ (Step 3)"cube_B_01600_z01000.fits" SPECTRAL_PROFILE_DATA stream should arrive within 120000 ms (8784ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        21.161s
+Ran all test suites matching /PERF_REGION_SPECTRAL_PROFILE_FITS.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
