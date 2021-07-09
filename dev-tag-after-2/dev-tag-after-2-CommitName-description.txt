@@ -14,3 +14,9 @@ b529e35;Angus/853 directory info (#855)
 9e97816;Angus/const time string compare (#862)
 7c20361;Confluence/729 consolidate style scripts (#859)
 db6508d;ProgramSettings: add missing setting keyword (#807 and #857) (#858)
+b210f6d;add a lock on set image channels (#860)
+ca2c679;Use mipmapped datasets and cached tile data from HDF5 files instead of the full image cache (#430)
+56790f8;updated protobuf commit
+19ead62;Use H5Aiterate2 to iterate over HDF5 attributes; add legacy fallback for HDF5 boolean value detection (#864)
+46d0df4;757 Use casacore FitsInput for FITS headers (#827) + Set FileLoader _width, _height (#867)
+
