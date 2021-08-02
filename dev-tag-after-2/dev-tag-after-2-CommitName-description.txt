@@ -22,4 +22,12 @@ ca2c679;Use mipmapped datasets and cached tile data from HDF5 files instead of t
 c4606cf;10 Support for LINE, POLYLINE regions (#771)
 62130e4c;Support fits.gz images using zlib (#834)
 51ed1b0;Jason/issue 1130 (#870)+updated protobuf commit
-pam579; pam PR testing
+eeb3464;WebBrowser: Create web browser class to improve --browser setting (#818)
+0902610217d;Fix browser call in macOS since it doesn't need to find executable in PATH (#877)
+d74168e;Assign first hdu if any when blank in OpenFile (#878)
+8310860591d;Add return_path field to scripting request (#879)
+d9b80ad;579 fix cached image (#875)
+c372506;Use the HDU variable with the correct default value when opening mipmap datasets (#880)
+18c986c;ajm/jenkins macos unit test adjustment (#883)
+0bf3388;Angus/boolean columns (#884)
+010ed5e;script for running gcovr to generate coverage report in html (#885)
