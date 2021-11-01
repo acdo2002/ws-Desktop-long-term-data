@@ -1,0 +1,15 @@
+[999D[KPASS src/test/PERF_LOAD_IMAGE_CASA.test.ts (13.901s)
+  PERF_LOAD_IMAGE
+    for "cube_B_09600_z00100.image"
+      ✓ CARTA is ready & Send a Session: (18ms)
+      Go to "set_QA_performance" folder
+        open the file "set_QA_performance/cube_B/cube_B_09600_z00100.image"
+          ✓ (Step 1)"cube_B_09600_z00100.image" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 16000 ms (1742ms)
+          ✓ (Step 1)"cube_B_09600_z00100.image" SetImageChannels & SetCursor responses should arrive within 4100 ms (25ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       3 passed, 3 total
+Snapshots:   0 total
+Time:        13.923s
+Ran all test suites matching /PERF_LOAD_IMAGE_CASA.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
