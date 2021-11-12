@@ -22,4 +22,6 @@ e5e1f87;Fix loading error for the compressed FITS file (#927)
 ae68795;additional error handling when checking for file existence (#946)
 56495fb;Check beam headers for casacore::FITSImage (#938)
 974b525;Use cfitsio for FITS headers (#937)
-cppmutex;cppmutex
+8323c19;Made the fits2idia converter a program dependency (#941)
+a6be4b4;Fix the crash problem when loading a non-image via the command line (#928)
+8d9aa32;Yuhsuan/895 hypercube types (#942)
