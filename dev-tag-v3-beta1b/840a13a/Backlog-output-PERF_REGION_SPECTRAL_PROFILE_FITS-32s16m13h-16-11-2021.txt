@@ -1,0 +1,19 @@
+[2021-11-16 13:28:21.906] [info] Writing to the log file: /home/mingyi/.carta/log/carta.log
+[2021-11-16 13:28:21.906] [debug] Using command-line settings
+[2021-11-16 13:28:21.907] [info] /home/mingyi/carta-backend-dev/840a13a/carta-backend/build/carta_backend: Version 3.0.0-beta.1b
+[2021-11-16 13:28:21.910] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-11-16 13:28:29.991] [debug] 0x55d1a18bb080 ::Session (1)
+[2021-11-16 13:28:29.991] [info] Session 1 [127.0.0.1] Connected. Num sessions: 1
+[2021-11-16 13:28:30.101] [debug] [performance] Load 1600x1600 image to cache in 54.683 ms at 46.815 MPix/s
+[2021-11-16 13:28:30.101] [warning] Session 1: Image has no beam information.
+[2021-11-16 13:28:30.105] [debug] [performance] Fill image histogram in 3.321 ms at 770.852 MPix/s
+[2021-11-16 13:28:30.109] [debug] [performance] Fill spatial profile in 0.035 ms
+[2021-11-16 13:28:30.110] [debug] [performance] Mean filter 1600x1600 raster data to 200x200 in 0.851 ms at 47.004 MPix/s
+[2021-11-16 13:28:30.111] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 5.599.
+[2021-11-16 13:28:30.111] [debug] [performance] Compress 200x200 tile data in 0.586 ms at 68.259 MPix/s
+[2021-11-16 13:28:30.111] [debug] [performance] Get tile data group in 1.658 ms
+[2021-11-16 13:28:38.221] [debug] [performance] Fill spectral profile in 8108.074 ms
+[2021-11-16 13:28:38.223] [debug] WebSocket closed with code 1005 and message ''.
+[2021-11-16 13:28:38.223] [info] Client 1 [127.0.0.1] Deleted. Remaining sessions: 1
+[2021-11-16 13:28:38.223] [debug] 0x55d1a18bb080 ~Session 0
+[2021-11-16 13:28:38.223] [info] No remaining sessions.

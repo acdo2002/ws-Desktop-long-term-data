@@ -1,0 +1,43 @@
+[2021-11-16 16:37:26.721] [info] Writing to the log file: /home/mingyi/.carta/log/carta.log
+[2021-11-16 16:37:26.721] [debug] Using command-line settings
+[2021-11-16 16:37:26.721] [info] /home/mingyi/carta-backend-dev/3d92b9f/carta-backend/build/carta_backend: Version 3.0.0-beta.1b
+[2021-11-16 16:37:26.725] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-11-16 16:37:34.954] [debug] 0x55cabc22b080 ::Session (1)
+[2021-11-16 16:37:34.954] [info] Session 1 [127.0.0.1] Connected. Num sessions: 1
+[2021-11-16 16:37:36.663] [debug] [performance] Load 9600x9600 image to cache in 1607.897 ms at 57.317 MPix/s
+[2021-11-16 16:37:36.663] [warning] Session 1: Image has no beam information.
+[2021-11-16 16:37:36.736] [debug] [performance] Fill image histogram in 72.921 ms at 1263.833 MPix/s
+[2021-11-16 16:37:36.742] [debug] [performance] Fill spatial profile in 0.214 ms
+[2021-11-16 16:37:36.755] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 13.678 ms at 4.791 MPix/s
+[2021-11-16 16:37:36.756] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 13.988 ms at 4.685 MPix/s
+[2021-11-16 16:37:36.757] [debug] The compression ratio for tile (layer:2, x:1, y:1) is 6.720.
+[2021-11-16 16:37:36.757] [debug] [performance] Compress 256x256 tile data in 0.946 ms at 69.277 MPix/s
+[2021-11-16 16:37:36.757] [debug] The compression ratio for tile (layer:2, x:0, y:0) is 6.010.
+[2021-11-16 16:37:36.757] [debug] [performance] Compress 256x256 tile data in 0.891 ms at 73.553 MPix/s
+[2021-11-16 16:37:36.759] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 16.851 ms at 3.889 MPix/s
+[2021-11-16 16:37:36.759] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 17.541 ms at 3.736 MPix/s
+[2021-11-16 16:37:36.760] [debug] The compression ratio for tile (layer:2, x:1, y:0) is 6.302.
+[2021-11-16 16:37:36.760] [debug] [performance] Compress 256x256 tile data in 0.875 ms at 74.898 MPix/s
+[2021-11-16 16:37:36.760] [debug] The compression ratio for tile (layer:2, x:0, y:1) is 6.297.
+[2021-11-16 16:37:36.760] [debug] [performance] Compress 256x256 tile data in 0.875 ms at 74.898 MPix/s
+[2021-11-16 16:37:36.761] [debug] [performance] Mean filter 1408x4096 raster data to 88x256 in 4.414 ms at 5.104 MPix/s
+[2021-11-16 16:37:36.761] [debug] [performance] Mean filter 4096x1408 raster data to 256x88 in 4.554 ms at 4.947 MPix/s
+[2021-11-16 16:37:36.761] [debug] The compression ratio for tile (layer:2, x:1, y:2) is 6.007.
+[2021-11-16 16:37:36.761] [debug] [performance] Compress 256x88 tile data in 0.307 ms at 73.381 MPix/s
+[2021-11-16 16:37:36.762] [debug] The compression ratio for tile (layer:2, x:2, y:0) is 5.700.
+[2021-11-16 16:37:36.762] [debug] [performance] Compress 88x256 tile data in 0.301 ms at 74.844 MPix/s
+[2021-11-16 16:37:36.763] [debug] [performance] Mean filter 1408x1408 raster data to 88x88 in 1.410 ms at 5.492 MPix/s
+[2021-11-16 16:37:36.763] [debug] The compression ratio for tile (layer:2, x:2, y:2) is 5.290.
+[2021-11-16 16:37:36.763] [debug] [performance] Compress 88x88 tile data in 0.107 ms at 72.374 MPix/s
+[2021-11-16 16:37:36.764] [debug] [performance] Mean filter 1408x4096 raster data to 88x256 in 3.848 ms at 5.854 MPix/s
+[2021-11-16 16:37:36.764] [debug] The compression ratio for tile (layer:2, x:0, y:2) is 5.680.
+[2021-11-16 16:37:36.764] [debug] [performance] Compress 256x88 tile data in 0.296 ms at 76.108 MPix/s
+[2021-11-16 16:37:36.764] [debug] [performance] Mean filter 4096x1408 raster data to 256x88 in 3.987 ms at 5.650 MPix/s
+[2021-11-16 16:37:36.765] [debug] The compression ratio for tile (layer:2, x:2, y:1) is 5.995.
+[2021-11-16 16:37:36.765] [debug] [performance] Compress 88x256 tile data in 0.299 ms at 75.344 MPix/s
+[2021-11-16 16:37:36.765] [debug] [performance] Get tile data group in 23.175 ms
+[2021-11-16 16:40:32.931] [debug] [performance] Fill cube histogram in 176164.193 ms at 52.315 MPix/s
+[2021-11-16 16:40:32.939] [debug] WebSocket closed with code 1005 and message ''.
+[2021-11-16 16:40:32.939] [info] Client 1 [127.0.0.1] Deleted. Remaining sessions: 1
+[2021-11-16 16:40:32.939] [debug] 0x55cabc22b080 ~Session 0
+[2021-11-16 16:40:32.939] [info] No remaining sessions.
