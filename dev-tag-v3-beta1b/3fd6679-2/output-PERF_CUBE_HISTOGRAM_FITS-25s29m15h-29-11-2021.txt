@@ -1,0 +1,16 @@
+PASS src/test/PERF_CUBE_HISTOGRAM_FITS.test.ts (185.395s)
+  PERF_CUBE_HISTOGRAM
+    for "cube_B_09600_z00100.fits"
+      ✓ CARTA is ready & Send a Session: (12ms)
+      Go to "set_QA_performance/cube_B" folder and open image "cube_B_09600_z00100.fits":": 
+        ✓ (Step 1)"cube_B_09600_z00100.fits" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 7000 ms (1383ms)
+        ✓ (Step 1)"cube_B_09600_z00100.fits" SetImageChannels & SetCursor responses should arrive within 5000 ms (28ms)
+        Set histogram requirements:
+          ✓ (Step 2)"cube_B_09600_z00100.fits" REGION_HISTOGRAM_DATA should arrive completely within 300000 ms: (171662ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        185.438s
+Ran all test suites matching /PERF_CUBE_HISTOGRAM_FITS.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
