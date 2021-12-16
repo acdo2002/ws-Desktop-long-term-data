@@ -1,0 +1,403 @@
+[2021-12-09 23:08:34.189] [info] Writing to the log file: /root/.carta/log/carta.log
+[2021-12-09 23:08:34.190] [debug] Using command-line settings
+[2021-12-09 23:08:34.190] [info] /home/mingyi/jenkins-carta-backend-dev/a544511/carta-backend/build/carta_backend: Version 3.0.0-beta.2b
+[2021-12-09 23:08:34.194] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-12-09 23:08:43.037] [debug] 0x559c9062ce40 ::Session (1)
+[2021-12-09 23:08:43.037] [info] Session 1 [127.0.0.1] Connected. Num sessions: 1
+[2021-12-09 23:08:44.715] [debug] [performance] Load 9600x9600 image to cache in 1608.502 ms at 57.296 MPix/s
+[2021-12-09 23:08:44.715] [warning] Session 1: Image has no beam information.
+[2021-12-09 23:08:44.790] [debug] [performance] Fill image histogram in 74.767 ms at 1232.629 MPix/s
+[2021-12-09 23:08:44.796] [debug] [performance] Fill spatial profile in 0.188 ms
+[2021-12-09 23:08:44.854] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 57.933 ms at 0.388 MPix/s
+[2021-12-09 23:08:44.854] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 8.352.
+[2021-12-09 23:08:44.854] [debug] [performance] Compress 150x150 tile data in 0.324 ms at 69.444 MPix/s
+[2021-12-09 23:08:44.854] [debug] [performance] Get tile data group in 58.469 ms
+[2021-12-09 23:08:47.971] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 59.731 ms at 0.377 MPix/s
+[2021-12-09 23:08:47.971] [warning] Discarding stale tile request for channel=0, layer=0, x=0, y=0
+[2021-12-09 23:08:47.971] [debug] [performance] Get tile data group in 59.866 ms
+[2021-12-09 23:08:48.057] [debug] [performance] Load 9600x9600 image to cache in 85.713 ms at 1075.216 MPix/s
+[2021-12-09 23:08:48.154] [debug] [performance] Fill image histogram in 97.254 ms at 947.622 MPix/s
+[2021-12-09 23:08:48.154] [debug] [performance] Fill spatial profile in 0.187 ms
+[2021-12-09 23:08:48.212] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 58.089 ms at 0.387 MPix/s
+[2021-12-09 23:08:48.212] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 15.020.
+[2021-12-09 23:08:48.212] [debug] [performance] Compress 150x150 tile data in 0.230 ms at 97.826 MPix/s
+[2021-12-09 23:08:48.212] [debug] [performance] Get tile data group in 58.433 ms
+[2021-12-09 23:08:48.212] [debug] [performance] Animator: Change frame in 301.335 ms
+[2021-12-09 23:08:49.685] [debug] [performance] Load 9600x9600 image to cache in 1405.940 ms at 65.550 MPix/s
+[2021-12-09 23:08:49.758] [debug] [performance] Fill image histogram in 72.662 ms at 1268.338 MPix/s
+[2021-12-09 23:08:49.758] [debug] [performance] Fill spatial profile in 0.143 ms
+[2021-12-09 23:08:49.814] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.255 ms at 0.407 MPix/s
+[2021-12-09 23:08:49.814] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.920.
+[2021-12-09 23:08:49.814] [debug] [performance] Compress 150x150 tile data in 0.229 ms at 98.253 MPix/s
+[2021-12-09 23:08:49.814] [debug] [performance] Get tile data group in 55.600 ms
+[2021-12-09 23:08:49.814] [debug] [performance] Animator: Change frame in 1534.450 ms
+[2021-12-09 23:08:49.973] [debug] [performance] Load 9600x9600 image to cache in 92.309 ms at 998.386 MPix/s
+[2021-12-09 23:08:50.046] [debug] [performance] Fill image histogram in 72.983 ms at 1262.760 MPix/s
+[2021-12-09 23:08:50.046] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:08:50.152] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 105.345 ms at 0.214 MPix/s
+[2021-12-09 23:08:50.152] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.822.
+[2021-12-09 23:08:50.152] [debug] [performance] Compress 150x150 tile data in 0.227 ms at 99.119 MPix/s
+[2021-12-09 23:08:50.152] [debug] [performance] Get tile data group in 105.679 ms
+[2021-12-09 23:08:50.152] [debug] [performance] Animator: Change frame in 271.217 ms
+[2021-12-09 23:08:51.907] [debug] [performance] Load 9600x9600 image to cache in 1687.487 ms at 54.614 MPix/s
+[2021-12-09 23:08:51.979] [debug] [performance] Fill image histogram in 72.734 ms at 1267.083 MPix/s
+[2021-12-09 23:08:51.979] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:08:52.036] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 56.759 ms at 0.396 MPix/s
+[2021-12-09 23:08:52.037] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.960.
+[2021-12-09 23:08:52.037] [debug] [performance] Compress 150x150 tile data in 0.227 ms at 99.119 MPix/s
+[2021-12-09 23:08:52.037] [debug] [performance] Get tile data group in 57.099 ms
+[2021-12-09 23:08:52.037] [debug] [performance] Animator: Change frame in 1817.575 ms
+[2021-12-09 23:08:52.225] [debug] [performance] Load 9600x9600 image to cache in 121.710 ms at 757.210 MPix/s
+[2021-12-09 23:08:52.299] [debug] [performance] Fill image histogram in 74.066 ms at 1244.296 MPix/s
+[2021-12-09 23:08:52.299] [debug] [performance] Fill spatial profile in 0.141 ms
+[2021-12-09 23:08:52.371] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 71.389 ms at 0.315 MPix/s
+[2021-12-09 23:08:52.371] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.940.
+[2021-12-09 23:08:52.371] [debug] [performance] Compress 150x150 tile data in 0.224 ms at 100.446 MPix/s
+[2021-12-09 23:08:52.371] [debug] [performance] Get tile data group in 71.721 ms
+[2021-12-09 23:08:52.371] [debug] [performance] Animator: Change frame in 267.725 ms
+[2021-12-09 23:08:53.856] [debug] [performance] Load 9600x9600 image to cache in 1418.188 ms at 64.984 MPix/s
+[2021-12-09 23:08:53.929] [debug] [performance] Fill image histogram in 73.095 ms at 1260.825 MPix/s
+[2021-12-09 23:08:53.929] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:08:53.985] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.917 ms at 0.402 MPix/s
+[2021-12-09 23:08:53.986] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.980.
+[2021-12-09 23:08:53.986] [debug] [performance] Compress 150x150 tile data in 0.227 ms at 99.119 MPix/s
+[2021-12-09 23:08:53.986] [debug] [performance] Get tile data group in 56.253 ms
+[2021-12-09 23:08:53.986] [debug] [performance] Animator: Change frame in 1547.786 ms
+[2021-12-09 23:08:54.152] [debug] [performance] Load 9600x9600 image to cache in 99.792 ms at 923.521 MPix/s
+[2021-12-09 23:08:54.227] [debug] [performance] Fill image histogram in 74.264 ms at 1240.978 MPix/s
+[2021-12-09 23:08:54.227] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:08:54.283] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 56.420 ms at 0.399 MPix/s
+[2021-12-09 23:08:54.284] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.980.
+[2021-12-09 23:08:54.284] [debug] [performance] Compress 150x150 tile data in 0.232 ms at 96.983 MPix/s
+[2021-12-09 23:08:54.284] [debug] [performance] Get tile data group in 56.754 ms
+[2021-12-09 23:08:54.284] [debug] [performance] Animator: Change frame in 231.064 ms
+[2021-12-09 23:08:55.763] [debug] [performance] Load 9600x9600 image to cache in 1412.023 ms at 65.268 MPix/s
+[2021-12-09 23:08:55.836] [debug] [performance] Fill image histogram in 73.022 ms at 1262.085 MPix/s
+[2021-12-09 23:08:55.836] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:08:55.893] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 56.561 ms at 0.398 MPix/s
+[2021-12-09 23:08:55.893] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 15.000.
+[2021-12-09 23:08:55.893] [debug] [performance] Compress 150x150 tile data in 0.228 ms at 98.684 MPix/s
+[2021-12-09 23:08:55.893] [debug] [performance] Get tile data group in 56.904 ms
+[2021-12-09 23:08:55.893] [debug] [performance] Animator: Change frame in 1542.197 ms
+[2021-12-09 23:08:56.085] [debug] [performance] Load 9600x9600 image to cache in 125.072 ms at 736.856 MPix/s
+[2021-12-09 23:08:56.156] [debug] [performance] Fill image histogram in 71.328 ms at 1292.059 MPix/s
+[2021-12-09 23:08:56.156] [debug] [performance] Fill spatial profile in 0.144 ms
+[2021-12-09 23:08:56.212] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.342 ms at 0.407 MPix/s
+[2021-12-09 23:08:56.212] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.881.
+[2021-12-09 23:08:56.212] [debug] [performance] Compress 150x150 tile data in 0.241 ms at 93.361 MPix/s
+[2021-12-09 23:08:56.212] [debug] [performance] Get tile data group in 55.682 ms
+[2021-12-09 23:08:56.212] [debug] [performance] Animator: Change frame in 252.351 ms
+[2021-12-09 23:08:57.860] [debug] [performance] Load 9600x9600 image to cache in 1580.983 ms at 58.293 MPix/s
+[2021-12-09 23:08:57.935] [debug] [performance] Fill image histogram in 74.412 ms at 1238.510 MPix/s
+[2021-12-09 23:08:57.935] [debug] [performance] Fill spatial profile in 0.141 ms
+[2021-12-09 23:08:57.990] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.707 ms at 0.404 MPix/s
+[2021-12-09 23:08:57.991] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.940.
+[2021-12-09 23:08:57.991] [debug] [performance] Compress 150x150 tile data in 0.228 ms at 98.684 MPix/s
+[2021-12-09 23:08:57.991] [debug] [performance] Get tile data group in 56.049 ms
+[2021-12-09 23:08:57.991] [debug] [performance] Animator: Change frame in 1711.674 ms
+[2021-12-09 23:08:58.156] [debug] [performance] Load 9600x9600 image to cache in 98.500 ms at 935.635 MPix/s
+[2021-12-09 23:08:58.229] [debug] [performance] Fill image histogram in 72.725 ms at 1267.240 MPix/s
+[2021-12-09 23:08:58.229] [debug] [performance] Fill spatial profile in 0.140 ms
+[2021-12-09 23:08:58.295] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 65.674 ms at 0.343 MPix/s
+[2021-12-09 23:08:58.295] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.940.
+[2021-12-09 23:08:58.295] [debug] [performance] Compress 150x150 tile data in 0.229 ms at 98.253 MPix/s
+[2021-12-09 23:08:58.295] [debug] [performance] Get tile data group in 66.014 ms
+[2021-12-09 23:08:58.295] [debug] [performance] Animator: Change frame in 237.472 ms
+[2021-12-09 23:09:00.050] [debug] [performance] Load 9600x9600 image to cache in 1687.999 ms at 54.597 MPix/s
+[2021-12-09 23:09:00.123] [debug] [performance] Fill image histogram in 72.368 ms at 1273.491 MPix/s
+[2021-12-09 23:09:00.123] [debug] [performance] Fill spatial profile in 0.164 ms
+[2021-12-09 23:09:00.179] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 56.721 ms at 0.397 MPix/s
+[2021-12-09 23:09:00.180] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.881.
+[2021-12-09 23:09:00.180] [debug] [performance] Compress 150x150 tile data in 0.228 ms at 98.684 MPix/s
+[2021-12-09 23:09:00.180] [debug] [performance] Get tile data group in 57.056 ms
+[2021-12-09 23:09:00.180] [debug] [performance] Animator: Change frame in 1817.694 ms
+[2021-12-09 23:09:00.374] [debug] [performance] Load 9600x9600 image to cache in 126.923 ms at 726.110 MPix/s
+[2021-12-09 23:09:00.447] [debug] [performance] Fill image histogram in 72.796 ms at 1266.004 MPix/s
+[2021-12-09 23:09:00.447] [debug] [performance] Fill spatial profile in 0.141 ms
+[2021-12-09 23:09:00.502] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.586 ms at 0.405 MPix/s
+[2021-12-09 23:09:00.503] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.920.
+[2021-12-09 23:09:00.503] [debug] [performance] Compress 150x150 tile data in 0.224 ms at 100.446 MPix/s
+[2021-12-09 23:09:00.503] [debug] [performance] Get tile data group in 55.919 ms
+[2021-12-09 23:09:00.503] [debug] [performance] Animator: Change frame in 255.888 ms
+[2021-12-09 23:09:02.569] [debug] [performance] Load 9600x9600 image to cache in 1999.923 ms at 46.082 MPix/s
+[2021-12-09 23:09:02.642] [debug] [performance] Fill image histogram in 72.798 ms at 1265.969 MPix/s
+[2021-12-09 23:09:02.642] [debug] [performance] Fill spatial profile in 0.143 ms
+[2021-12-09 23:09:02.698] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.382 ms at 0.406 MPix/s
+[2021-12-09 23:09:02.698] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 15.000.
+[2021-12-09 23:09:02.698] [debug] [performance] Compress 150x150 tile data in 0.240 ms at 93.750 MPix/s
+[2021-12-09 23:09:02.698] [debug] [performance] Get tile data group in 55.726 ms
+[2021-12-09 23:09:02.698] [debug] [performance] Animator: Change frame in 2128.693 ms
+[2021-12-09 23:09:02.861] [debug] [performance] Load 9600x9600 image to cache in 95.778 ms at 962.225 MPix/s
+[2021-12-09 23:09:02.933] [debug] [performance] Fill image histogram in 72.689 ms at 1267.867 MPix/s
+[2021-12-09 23:09:02.934] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:09:02.990] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 56.404 ms at 0.399 MPix/s
+[2021-12-09 23:09:02.990] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 15.000.
+[2021-12-09 23:09:02.990] [debug] [performance] Compress 150x150 tile data in 0.224 ms at 100.446 MPix/s
+[2021-12-09 23:09:02.990] [debug] [performance] Get tile data group in 56.736 ms
+[2021-12-09 23:09:02.990] [debug] [performance] Animator: Change frame in 225.451 ms
+[2021-12-09 23:09:04.466] [debug] [performance] Load 9600x9600 image to cache in 1408.236 ms at 65.444 MPix/s
+[2021-12-09 23:09:04.540] [debug] [performance] Fill image histogram in 74.181 ms at 1242.367 MPix/s
+[2021-12-09 23:09:04.540] [debug] [performance] Fill spatial profile in 0.140 ms
+[2021-12-09 23:09:04.594] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 54.417 ms at 0.413 MPix/s
+[2021-12-09 23:09:04.595] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.960.
+[2021-12-09 23:09:04.595] [debug] [performance] Compress 150x150 tile data in 0.228 ms at 98.684 MPix/s
+[2021-12-09 23:09:04.595] [debug] [performance] Get tile data group in 54.754 ms
+[2021-12-09 23:09:04.595] [debug] [performance] Animator: Change frame in 1537.415 ms
+[2021-12-09 23:09:04.775] [debug] [performance] Load 9600x9600 image to cache in 113.655 ms at 810.875 MPix/s
+[2021-12-09 23:09:04.847] [debug] [performance] Fill image histogram in 71.850 ms at 1282.672 MPix/s
+[2021-12-09 23:09:04.847] [debug] [performance] Fill spatial profile in 0.140 ms
+[2021-12-09 23:09:04.903] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.239 ms at 0.407 MPix/s
+[2021-12-09 23:09:04.903] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 15.020.
+[2021-12-09 23:09:04.903] [debug] [performance] Compress 150x150 tile data in 0.224 ms at 100.446 MPix/s
+[2021-12-09 23:09:04.903] [debug] [performance] Get tile data group in 55.576 ms
+[2021-12-09 23:09:04.903] [debug] [performance] Animator: Change frame in 241.326 ms
+[2021-12-09 23:09:06.375] [debug] [performance] Load 9600x9600 image to cache in 1404.878 ms at 65.600 MPix/s
+[2021-12-09 23:09:06.448] [debug] [performance] Fill image histogram in 72.664 ms at 1268.303 MPix/s
+[2021-12-09 23:09:06.448] [debug] [performance] Fill spatial profile in 0.140 ms
+[2021-12-09 23:09:06.503] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.464 ms at 0.406 MPix/s
+[2021-12-09 23:09:06.503] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.980.
+[2021-12-09 23:09:06.503] [debug] [performance] Compress 150x150 tile data in 0.227 ms at 99.119 MPix/s
+[2021-12-09 23:09:06.504] [debug] [performance] Get tile data group in 55.805 ms
+[2021-12-09 23:09:06.504] [debug] [performance] Animator: Change frame in 1533.575 ms
+[2021-12-09 23:09:06.671] [debug] [performance] Load 9600x9600 image to cache in 100.988 ms at 912.584 MPix/s
+[2021-12-09 23:09:06.744] [debug] [performance] Fill image histogram in 72.630 ms at 1268.897 MPix/s
+[2021-12-09 23:09:06.744] [debug] [performance] Fill spatial profile in 0.140 ms
+[2021-12-09 23:09:06.800] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 56.057 ms at 0.401 MPix/s
+[2021-12-09 23:09:06.800] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.940.
+[2021-12-09 23:09:06.800] [debug] [performance] Compress 150x150 tile data in 0.227 ms at 99.119 MPix/s
+[2021-12-09 23:09:06.801] [debug] [performance] Get tile data group in 56.391 ms
+[2021-12-09 23:09:06.801] [debug] [performance] Animator: Change frame in 230.263 ms
+[2021-12-09 23:09:08.275] [debug] [performance] Load 9600x9600 image to cache in 1407.315 ms at 65.486 MPix/s
+[2021-12-09 23:09:08.348] [debug] [performance] Fill image histogram in 72.987 ms at 1262.691 MPix/s
+[2021-12-09 23:09:08.348] [debug] [performance] Fill spatial profile in 0.140 ms
+[2021-12-09 23:09:08.403] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 54.548 ms at 0.412 MPix/s
+[2021-12-09 23:09:08.403] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 15.000.
+[2021-12-09 23:09:08.403] [debug] [performance] Compress 150x150 tile data in 0.231 ms at 97.403 MPix/s
+[2021-12-09 23:09:08.403] [debug] [performance] Get tile data group in 54.880 ms
+[2021-12-09 23:09:08.403] [debug] [performance] Animator: Change frame in 1535.422 ms
+[2021-12-09 23:09:08.567] [debug] [performance] Load 9600x9600 image to cache in 97.461 ms at 945.609 MPix/s
+[2021-12-09 23:09:08.642] [debug] [performance] Fill image histogram in 74.298 ms at 1240.410 MPix/s
+[2021-12-09 23:09:08.642] [debug] [performance] Fill spatial profile in 0.139 ms
+[2021-12-09 23:09:08.744] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 101.822 ms at 0.221 MPix/s
+[2021-12-09 23:09:08.744] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.980.
+[2021-12-09 23:09:08.744] [debug] [performance] Compress 150x150 tile data in 0.225 ms at 100.000 MPix/s
+[2021-12-09 23:09:08.744] [debug] [performance] Get tile data group in 102.151 ms
+[2021-12-09 23:09:08.744] [debug] [performance] Animator: Change frame in 274.151 ms
+[2021-12-09 23:09:10.218] [debug] [performance] Load 9600x9600 image to cache in 1407.635 ms at 65.472 MPix/s
+[2021-12-09 23:09:10.291] [debug] [performance] Fill image histogram in 72.942 ms at 1263.470 MPix/s
+[2021-12-09 23:09:10.292] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:09:10.347] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.185 ms at 0.408 MPix/s
+[2021-12-09 23:09:10.347] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.920.
+[2021-12-09 23:09:10.347] [debug] [performance] Compress 150x150 tile data in 0.229 ms at 98.253 MPix/s
+[2021-12-09 23:09:10.347] [debug] [performance] Get tile data group in 55.521 ms
+[2021-12-09 23:09:10.347] [debug] [performance] Animator: Change frame in 1536.338 ms
+[2021-12-09 23:09:10.528] [debug] [performance] Load 9600x9600 image to cache in 113.657 ms at 810.861 MPix/s
+[2021-12-09 23:09:10.600] [debug] [performance] Fill image histogram in 72.608 ms at 1269.282 MPix/s
+[2021-12-09 23:09:10.601] [debug] [performance] Fill spatial profile in 0.149 ms
+[2021-12-09 23:09:10.704] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 103.202 ms at 0.218 MPix/s
+[2021-12-09 23:09:10.704] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.901.
+[2021-12-09 23:09:10.704] [debug] [performance] Compress 150x150 tile data in 0.232 ms at 96.983 MPix/s
+[2021-12-09 23:09:10.704] [debug] [performance] Get tile data group in 103.544 ms
+[2021-12-09 23:09:10.704] [debug] [performance] Animator: Change frame in 290.049 ms
+[2021-12-09 23:09:12.179] [debug] [performance] Load 9600x9600 image to cache in 1407.629 ms at 65.472 MPix/s
+[2021-12-09 23:09:12.252] [debug] [performance] Fill image histogram in 72.804 ms at 1265.865 MPix/s
+[2021-12-09 23:09:12.252] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:09:12.306] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 54.174 ms at 0.415 MPix/s
+[2021-12-09 23:09:12.306] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 15.000.
+[2021-12-09 23:09:12.306] [debug] [performance] Compress 150x150 tile data in 0.231 ms at 97.403 MPix/s
+[2021-12-09 23:09:12.306] [debug] [performance] Get tile data group in 54.507 ms
+[2021-12-09 23:09:12.306] [debug] [performance] Animator: Change frame in 1535.184 ms
+[2021-12-09 23:09:12.487] [debug] [performance] Load 9600x9600 image to cache in 113.468 ms at 812.211 MPix/s
+[2021-12-09 23:09:12.560] [debug] [performance] Fill image histogram in 72.817 ms at 1265.639 MPix/s
+[2021-12-09 23:09:12.560] [debug] [performance] Fill spatial profile in 0.141 ms
+[2021-12-09 23:09:12.644] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 83.840 ms at 0.268 MPix/s
+[2021-12-09 23:09:12.644] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.940.
+[2021-12-09 23:09:12.644] [debug] [performance] Compress 150x150 tile data in 0.228 ms at 98.684 MPix/s
+[2021-12-09 23:09:12.644] [debug] [performance] Get tile data group in 84.176 ms
+[2021-12-09 23:09:12.644] [debug] [performance] Animator: Change frame in 270.715 ms
+[2021-12-09 23:09:14.115] [debug] [performance] Load 9600x9600 image to cache in 1403.827 ms at 65.649 MPix/s
+[2021-12-09 23:09:14.188] [debug] [performance] Fill image histogram in 72.822 ms at 1265.552 MPix/s
+[2021-12-09 23:09:14.188] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:09:14.244] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.894 ms at 0.403 MPix/s
+[2021-12-09 23:09:14.244] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.980.
+[2021-12-09 23:09:14.244] [debug] [performance] Compress 150x150 tile data in 0.226 ms at 99.558 MPix/s
+[2021-12-09 23:09:14.244] [debug] [performance] Get tile data group in 56.227 ms
+[2021-12-09 23:09:14.244] [debug] [performance] Animator: Change frame in 1533.121 ms
+[2021-12-09 23:09:14.406] [debug] [performance] Load 9600x9600 image to cache in 94.424 ms at 976.023 MPix/s
+[2021-12-09 23:09:14.478] [debug] [performance] Fill image histogram in 72.742 ms at 1266.943 MPix/s
+[2021-12-09 23:09:14.478] [debug] [performance] Fill spatial profile in 0.138 ms
+[2021-12-09 23:09:14.534] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.356 ms at 0.406 MPix/s
+[2021-12-09 23:09:14.534] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.920.
+[2021-12-09 23:09:14.534] [debug] [performance] Compress 150x150 tile data in 0.223 ms at 100.897 MPix/s
+[2021-12-09 23:09:14.534] [debug] [performance] Get tile data group in 55.686 ms
+[2021-12-09 23:09:14.534] [debug] [performance] Animator: Change frame in 223.092 ms
+[2021-12-09 23:09:16.013] [debug] [performance] Load 9600x9600 image to cache in 1412.332 ms at 65.254 MPix/s
+[2021-12-09 23:09:16.087] [debug] [performance] Fill image histogram in 73.196 ms at 1259.085 MPix/s
+[2021-12-09 23:09:16.087] [debug] [performance] Fill spatial profile in 0.139 ms
+[2021-12-09 23:09:16.141] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 54.480 ms at 0.413 MPix/s
+[2021-12-09 23:09:16.142] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.901.
+[2021-12-09 23:09:16.142] [debug] [performance] Compress 150x150 tile data in 0.228 ms at 98.684 MPix/s
+[2021-12-09 23:09:16.142] [debug] [performance] Get tile data group in 54.816 ms
+[2021-12-09 23:09:16.142] [debug] [performance] Animator: Change frame in 1540.608 ms
+[2021-12-09 23:09:16.305] [debug] [performance] Load 9600x9600 image to cache in 95.870 ms at 961.302 MPix/s
+[2021-12-09 23:09:16.377] [debug] [performance] Fill image histogram in 72.783 ms at 1266.230 MPix/s
+[2021-12-09 23:09:16.378] [debug] [performance] Fill spatial profile in 0.137 ms
+[2021-12-09 23:09:16.480] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 102.060 ms at 0.220 MPix/s
+[2021-12-09 23:09:16.480] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.980.
+[2021-12-09 23:09:16.480] [debug] [performance] Compress 150x150 tile data in 0.223 ms at 100.897 MPix/s
+[2021-12-09 23:09:16.480] [debug] [performance] Get tile data group in 102.385 ms
+[2021-12-09 23:09:16.480] [debug] [performance] Animator: Change frame in 271.260 ms
+[2021-12-09 23:09:17.951] [debug] [performance] Load 9600x9600 image to cache in 1404.390 ms at 65.623 MPix/s
+[2021-12-09 23:09:18.024] [debug] [performance] Fill image histogram in 72.840 ms at 1265.239 MPix/s
+[2021-12-09 23:09:18.024] [debug] [performance] Fill spatial profile in 0.142 ms
+[2021-12-09 23:09:18.080] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.043 ms at 0.409 MPix/s
+[2021-12-09 23:09:18.080] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.960.
+[2021-12-09 23:09:18.080] [debug] [performance] Compress 150x150 tile data in 0.225 ms at 100.000 MPix/s
+[2021-12-09 23:09:18.080] [debug] [performance] Get tile data group in 55.378 ms
+[2021-12-09 23:09:18.080] [debug] [performance] Animator: Change frame in 1532.861 ms
+[2021-12-09 23:09:18.247] [debug] [performance] Load 9600x9600 image to cache in 100.440 ms at 917.563 MPix/s
+[2021-12-09 23:09:18.320] [debug] [performance] Fill image histogram in 72.774 ms at 1266.386 MPix/s
+[2021-12-09 23:09:18.320] [debug] [performance] Fill spatial profile in 0.140 ms
+[2021-12-09 23:09:18.375] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.004 ms at 0.409 MPix/s
+[2021-12-09 23:09:18.375] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.940.
+[2021-12-09 23:09:18.375] [debug] [performance] Compress 150x150 tile data in 0.224 ms at 100.446 MPix/s
+[2021-12-09 23:09:18.376] [debug] [performance] Get tile data group in 55.332 ms
+[2021-12-09 23:09:18.376] [debug] [performance] Animator: Change frame in 228.776 ms
+[2021-12-09 23:09:19.844] [debug] [performance] Load 9600x9600 image to cache in 1401.368 ms at 65.764 MPix/s
+[2021-12-09 23:09:19.917] [debug] [performance] Fill image histogram in 73.049 ms at 1261.619 MPix/s
+[2021-12-09 23:09:19.917] [debug] [performance] Fill spatial profile in 0.141 ms
+[2021-12-09 23:09:19.972] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 54.685 ms at 0.411 MPix/s
+[2021-12-09 23:09:19.972] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.940.
+[2021-12-09 23:09:19.972] [debug] [performance] Compress 150x150 tile data in 0.226 ms at 99.558 MPix/s
+[2021-12-09 23:09:19.972] [debug] [performance] Get tile data group in 55.019 ms
+[2021-12-09 23:09:19.972] [debug] [performance] Animator: Change frame in 1529.675 ms
+[2021-12-09 23:09:20.133] [debug] [performance] Load 9600x9600 image to cache in 93.675 ms at 983.827 MPix/s
+[2021-12-09 23:09:20.206] [debug] [performance] Fill image histogram in 72.692 ms at 1267.815 MPix/s
+[2021-12-09 23:09:20.206] [debug] [performance] Fill spatial profile in 0.139 ms
+[2021-12-09 23:09:20.261] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.250 ms at 0.407 MPix/s
+[2021-12-09 23:09:20.261] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.960.
+[2021-12-09 23:09:20.261] [debug] [performance] Compress 150x150 tile data in 0.227 ms at 99.119 MPix/s
+[2021-12-09 23:09:20.261] [debug] [performance] Get tile data group in 55.585 ms
+[2021-12-09 23:09:20.261] [debug] [performance] Animator: Change frame in 222.209 ms
+[2021-12-09 23:09:21.733] [debug] [performance] Load 9600x9600 image to cache in 1404.578 ms at 65.614 MPix/s
+[2021-12-09 23:09:21.806] [debug] [performance] Fill image histogram in 72.918 ms at 1263.885 MPix/s
+[2021-12-09 23:09:21.806] [debug] [performance] Fill spatial profile in 0.139 ms
+[2021-12-09 23:09:21.862] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 56.064 ms at 0.401 MPix/s
+[2021-12-09 23:09:21.862] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 15.000.
+[2021-12-09 23:09:21.862] [debug] [performance] Compress 150x150 tile data in 0.226 ms at 99.558 MPix/s
+[2021-12-09 23:09:21.862] [debug] [performance] Get tile data group in 56.400 ms
+[2021-12-09 23:09:21.862] [debug] [performance] Animator: Change frame in 1534.136 ms
+[2021-12-09 23:09:22.021] [debug] [performance] Load 9600x9600 image to cache in 92.129 ms at 1000.336 MPix/s
+[2021-12-09 23:09:22.096] [debug] [performance] Fill image histogram in 74.586 ms at 1235.621 MPix/s
+[2021-12-09 23:09:22.096] [debug] [performance] Fill spatial profile in 0.138 ms
+[2021-12-09 23:09:22.196] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 99.471 ms at 0.226 MPix/s
+[2021-12-09 23:09:22.196] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.960.
+[2021-12-09 23:09:22.196] [debug] [performance] Compress 150x150 tile data in 0.230 ms at 97.826 MPix/s
+[2021-12-09 23:09:22.196] [debug] [performance] Get tile data group in 99.804 ms
+[2021-12-09 23:09:22.196] [debug] [performance] Animator: Change frame in 266.765 ms
+[2021-12-09 23:09:23.668] [debug] [performance] Load 9600x9600 image to cache in 1405.104 ms at 65.589 MPix/s
+[2021-12-09 23:09:23.741] [debug] [performance] Fill image histogram in 72.835 ms at 1265.326 MPix/s
+[2021-12-09 23:09:23.741] [debug] [performance] Fill spatial profile in 0.139 ms
+[2021-12-09 23:09:23.795] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 53.623 ms at 0.420 MPix/s
+[2021-12-09 23:09:23.795] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.980.
+[2021-12-09 23:09:23.795] [debug] [performance] Compress 150x150 tile data in 0.232 ms at 96.983 MPix/s
+[2021-12-09 23:09:23.795] [debug] [performance] Get tile data group in 53.956 ms
+[2021-12-09 23:09:23.795] [debug] [performance] Animator: Change frame in 1532.118 ms
+[2021-12-09 23:09:23.960] [debug] [performance] Load 9600x9600 image to cache in 98.354 ms at 937.023 MPix/s
+[2021-12-09 23:09:24.033] [debug] [performance] Fill image histogram in 72.811 ms at 1265.743 MPix/s
+[2021-12-09 23:09:24.033] [debug] [performance] Fill spatial profile in 0.137 ms
+[2021-12-09 23:09:24.135] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 101.761 ms at 0.221 MPix/s
+[2021-12-09 23:09:24.135] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.960.
+[2021-12-09 23:09:24.135] [debug] [performance] Compress 150x150 tile data in 0.226 ms at 99.558 MPix/s
+[2021-12-09 23:09:24.136] [debug] [performance] Get tile data group in 102.093 ms
+[2021-12-09 23:09:24.136] [debug] [performance] Animator: Change frame in 273.488 ms
+[2021-12-09 23:09:25.610] [debug] [performance] Load 9600x9600 image to cache in 1407.652 ms at 65.471 MPix/s
+[2021-12-09 23:09:25.683] [debug] [performance] Fill image histogram in 73.002 ms at 1262.431 MPix/s
+[2021-12-09 23:09:25.683] [debug] [performance] Fill spatial profile in 0.138 ms
+[2021-12-09 23:09:25.738] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 54.455 ms at 0.413 MPix/s
+[2021-12-09 23:09:25.738] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.960.
+[2021-12-09 23:09:25.738] [debug] [performance] Compress 150x150 tile data in 0.228 ms at 98.684 MPix/s
+[2021-12-09 23:09:25.738] [debug] [performance] Get tile data group in 54.790 ms
+[2021-12-09 23:09:25.738] [debug] [performance] Animator: Change frame in 1535.688 ms
+[2021-12-09 23:09:25.900] [debug] [performance] Load 9600x9600 image to cache in 95.092 ms at 969.167 MPix/s
+[2021-12-09 23:09:25.973] [debug] [performance] Fill image histogram in 73.117 ms at 1260.446 MPix/s
+[2021-12-09 23:09:25.973] [debug] [performance] Fill spatial profile in 0.136 ms
+[2021-12-09 23:09:26.027] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 53.850 ms at 0.418 MPix/s
+[2021-12-09 23:09:26.028] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 15.020.
+[2021-12-09 23:09:26.028] [debug] [performance] Compress 150x150 tile data in 0.224 ms at 100.446 MPix/s
+[2021-12-09 23:09:26.028] [debug] [performance] Get tile data group in 54.187 ms
+[2021-12-09 23:09:26.028] [debug] [performance] Animator: Change frame in 222.634 ms
+[2021-12-09 23:09:27.518] [debug] [performance] Load 9600x9600 image to cache in 1423.722 ms at 64.732 MPix/s
+[2021-12-09 23:09:27.592] [debug] [performance] Fill image histogram in 73.118 ms at 1260.428 MPix/s
+[2021-12-09 23:09:27.592] [debug] [performance] Fill spatial profile in 0.140 ms
+[2021-12-09 23:09:27.647] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.062 ms at 0.409 MPix/s
+[2021-12-09 23:09:27.647] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.861.
+[2021-12-09 23:09:27.647] [debug] [performance] Compress 150x150 tile data in 0.228 ms at 98.684 MPix/s
+[2021-12-09 23:09:27.647] [debug] [performance] Get tile data group in 55.400 ms
+[2021-12-09 23:09:27.647] [debug] [performance] Animator: Change frame in 1552.489 ms
+[2021-12-09 23:09:27.824] [debug] [performance] Load 9600x9600 image to cache in 109.921 ms at 838.420 MPix/s
+[2021-12-09 23:09:27.897] [debug] [performance] Fill image histogram in 73.052 ms at 1261.567 MPix/s
+[2021-12-09 23:09:27.897] [debug] [performance] Fill spatial profile in 0.137 ms
+[2021-12-09 23:09:27.999] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 101.769 ms at 0.221 MPix/s
+[2021-12-09 23:09:27.999] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.901.
+[2021-12-09 23:09:27.999] [debug] [performance] Compress 150x150 tile data in 0.224 ms at 100.446 MPix/s
+[2021-12-09 23:09:27.999] [debug] [performance] Get tile data group in 102.100 ms
+[2021-12-09 23:09:27.999] [debug] [performance] Animator: Change frame in 285.309 ms
+[2021-12-09 23:09:29.472] [debug] [performance] Load 9600x9600 image to cache in 1406.097 ms at 65.543 MPix/s
+[2021-12-09 23:09:29.546] [debug] [performance] Fill image histogram in 73.229 ms at 1258.518 MPix/s
+[2021-12-09 23:09:29.546] [debug] [performance] Fill spatial profile in 0.141 ms
+[2021-12-09 23:09:29.600] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 53.974 ms at 0.417 MPix/s
+[2021-12-09 23:09:29.600] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.861.
+[2021-12-09 23:09:29.600] [debug] [performance] Compress 150x150 tile data in 0.233 ms at 96.567 MPix/s
+[2021-12-09 23:09:29.600] [debug] [performance] Get tile data group in 54.306 ms
+[2021-12-09 23:09:29.600] [debug] [performance] Animator: Change frame in 1533.879 ms
+[2021-12-09 23:09:29.762] [debug] [performance] Load 9600x9600 image to cache in 94.848 ms at 971.660 MPix/s
+[2021-12-09 23:09:29.836] [debug] [performance] Fill image histogram in 74.510 ms at 1236.881 MPix/s
+[2021-12-09 23:09:29.837] [debug] [performance] Fill spatial profile in 0.157 ms
+[2021-12-09 23:09:29.890] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 53.444 ms at 0.421 MPix/s
+[2021-12-09 23:09:29.890] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.861.
+[2021-12-09 23:09:29.890] [debug] [performance] Compress 150x150 tile data in 0.230 ms at 97.826 MPix/s
+[2021-12-09 23:09:29.890] [debug] [performance] Get tile data group in 53.780 ms
+[2021-12-09 23:09:29.890] [debug] [performance] Animator: Change frame in 223.393 ms
+[2021-12-09 23:09:31.370] [debug] [performance] Load 9600x9600 image to cache in 1412.132 ms at 65.263 MPix/s
+[2021-12-09 23:09:31.443] [debug] [performance] Fill image histogram in 73.654 ms at 1251.256 MPix/s
+[2021-12-09 23:09:31.443] [debug] [performance] Fill spatial profile in 0.160 ms
+[2021-12-09 23:09:31.499] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.469 ms at 0.406 MPix/s
+[2021-12-09 23:09:31.499] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.861.
+[2021-12-09 23:09:31.499] [debug] [performance] Compress 150x150 tile data in 0.228 ms at 98.684 MPix/s
+[2021-12-09 23:09:31.499] [debug] [performance] Get tile data group in 55.806 ms
+[2021-12-09 23:09:31.499] [debug] [performance] Animator: Change frame in 1541.851 ms
+[2021-12-09 23:09:31.658] [debug] [performance] Load 9600x9600 image to cache in 91.447 ms at 1007.797 MPix/s
+[2021-12-09 23:09:31.732] [debug] [performance] Fill image histogram in 74.114 ms at 1243.490 MPix/s
+[2021-12-09 23:09:31.732] [debug] [performance] Fill spatial profile in 0.137 ms
+[2021-12-09 23:09:31.834] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 101.764 ms at 0.221 MPix/s
+[2021-12-09 23:09:31.834] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.861.
+[2021-12-09 23:09:31.834] [debug] [performance] Compress 150x150 tile data in 0.225 ms at 100.000 MPix/s
+[2021-12-09 23:09:31.834] [debug] [performance] Get tile data group in 102.095 ms
+[2021-12-09 23:09:31.834] [debug] [performance] Animator: Change frame in 267.894 ms
+[2021-12-09 23:09:33.316] [debug] [performance] Load 9600x9600 image to cache in 1415.297 ms at 65.117 MPix/s
+[2021-12-09 23:09:33.390] [debug] [performance] Fill image histogram in 74.068 ms at 1244.262 MPix/s
+[2021-12-09 23:09:33.391] [debug] [performance] Fill spatial profile in 0.143 ms
+[2021-12-09 23:09:33.446] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 55.759 ms at 0.404 MPix/s
+[2021-12-09 23:09:33.447] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.881.
+[2021-12-09 23:09:33.447] [debug] [performance] Compress 150x150 tile data in 0.230 ms at 97.826 MPix/s
+[2021-12-09 23:09:33.447] [debug] [performance] Get tile data group in 56.098 ms
+[2021-12-09 23:09:33.447] [debug] [performance] Animator: Change frame in 1545.719 ms
+[2021-12-09 23:09:33.639] [debug] [performance] Load 9600x9600 image to cache in 125.429 ms at 734.758 MPix/s
+[2021-12-09 23:09:33.712] [debug] [performance] Fill image histogram in 72.644 ms at 1268.653 MPix/s
+[2021-12-09 23:09:33.712] [debug] [performance] Fill spatial profile in 0.141 ms
+[2021-12-09 23:09:33.767] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 54.924 ms at 0.410 MPix/s
+[2021-12-09 23:09:33.767] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 14.783.
+[2021-12-09 23:09:33.767] [debug] [performance] Compress 150x150 tile data in 0.226 ms at 99.558 MPix/s
+[2021-12-09 23:09:33.767] [debug] [performance] Get tile data group in 55.260 ms
+[2021-12-09 23:09:33.767] [debug] [performance] Animator: Change frame in 253.580 ms
+[2021-12-09 23:09:33.857] [debug] [performance] Load 9600x9600 image to cache in 86.596 ms at 1064.252 MPix/s
+[2021-12-09 23:09:33.858] [debug] [performance] Fill spatial profile in 0.188 ms
+[2021-12-09 23:09:33.912] [debug] [performance] Mean filter 9600x9600 raster data to 150x150 in 54.753 ms at 0.411 MPix/s
+[2021-12-09 23:09:33.913] [debug] The compression ratio for tile (layer:0, x:0, y:0) is 8.315.
+[2021-12-09 23:09:33.913] [debug] [performance] Compress 150x150 tile data in 0.310 ms at 72.581 MPix/s
+[2021-12-09 23:09:33.913] [debug] [performance] Get tile data group in 55.166 ms
+[2021-12-09 23:09:33.915] [debug] WebSocket closed with code 1005 and message ''.
+[2021-12-09 23:09:33.915] [info] Client 1 [127.0.0.1] Deleted. Remaining sessions: 1
+[2021-12-09 23:09:33.915] [debug] 0x559c9062ce40 ~Session 0
+[2021-12-09 23:09:33.915] [info] No remaining sessions.

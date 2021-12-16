@@ -1,0 +1,32 @@
+[2021-12-09 22:34:07.825] [info] Writing to the log file: /root/.carta/log/carta.log
+[2021-12-09 22:34:07.826] [debug] Using command-line settings
+[2021-12-09 22:34:07.826] [info] /home/mingyi/jenkins-carta-backend-dev/a544511/carta-backend/build/carta_backend: Version 3.0.0-beta.2b
+[2021-12-09 22:34:07.830] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-12-09 22:34:16.637] [debug] 0x558cce9dce40 ::Session (1)
+[2021-12-09 22:34:16.637] [info] Session 1 [127.0.0.1] Connected. Num sessions: 1
+[2021-12-09 22:34:16.765] [warning] Session 1: Image has no beam information.
+[2021-12-09 22:34:16.801] [debug] The compression ratio for tile (layer:2, x:1, y:1) is 6.720.
+[2021-12-09 22:34:16.801] [debug] [performance] Compress 256x256 tile data in 5.207 ms at 12.586 MPix/s
+[2021-12-09 22:34:16.802] [debug] The compression ratio for tile (layer:2, x:0, y:0) is 6.010.
+[2021-12-09 22:34:16.802] [debug] [performance] Compress 256x256 tile data in 4.931 ms at 13.291 MPix/s
+[2021-12-09 22:34:16.802] [debug] The compression ratio for tile (layer:2, x:1, y:0) is 6.302.
+[2021-12-09 22:34:16.802] [debug] [performance] Compress 256x256 tile data in 4.755 ms at 13.783 MPix/s
+[2021-12-09 22:34:16.802] [debug] The compression ratio for tile (layer:2, x:0, y:1) is 6.297.
+[2021-12-09 22:34:16.802] [debug] [performance] Compress 256x256 tile data in 4.593 ms at 14.269 MPix/s
+[2021-12-09 22:34:16.806] [debug] The compression ratio for tile (layer:2, x:1, y:2) is 6.007.
+[2021-12-09 22:34:16.806] [debug] [performance] Compress 256x88 tile data in 0.320 ms at 70.400 MPix/s
+[2021-12-09 22:34:16.807] [debug] The compression ratio for tile (layer:2, x:2, y:0) is 5.700.
+[2021-12-09 22:34:16.807] [debug] [performance] Compress 88x256 tile data in 0.332 ms at 67.855 MPix/s
+[2021-12-09 22:34:16.808] [debug] The compression ratio for tile (layer:2, x:0, y:2) is 5.680.
+[2021-12-09 22:34:16.808] [debug] [performance] Compress 256x88 tile data in 0.347 ms at 64.922 MPix/s
+[2021-12-09 22:34:16.808] [debug] The compression ratio for tile (layer:2, x:2, y:1) is 5.995.
+[2021-12-09 22:34:16.808] [debug] [performance] Compress 88x256 tile data in 0.321 ms at 70.181 MPix/s
+[2021-12-09 22:34:16.812] [debug] The compression ratio for tile (layer:2, x:2, y:2) is 5.290.
+[2021-12-09 22:34:16.812] [debug] [performance] Compress 88x88 tile data in 0.121 ms at 64.000 MPix/s
+[2021-12-09 22:34:16.812] [debug] [performance] Get tile data group in 23.916 ms
+[2021-12-09 22:34:16.815] [debug] WebSocket closed with code 1005 and message ''.
+[2021-12-09 22:34:16.815] [info] Client 1 [127.0.0.1] Deleted. Remaining sessions: 1
+[2021-12-09 22:34:16.815] [warning] Session 1 reference count is not 0 (1) on deletion!
+[2021-12-09 22:34:16.956] [debug] [performance] Fill spatial profile in 183.342 ms
+[2021-12-09 22:34:16.956] [debug] 0x558cce9dce40 ~Session 0
+[2021-12-09 22:34:16.956] [info] No remaining sessions.

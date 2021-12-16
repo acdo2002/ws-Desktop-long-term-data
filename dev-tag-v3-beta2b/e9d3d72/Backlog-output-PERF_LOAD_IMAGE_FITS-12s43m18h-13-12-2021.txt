@@ -1,0 +1,42 @@
+[2021-12-13 18:43:12.887] [info] Writing to the log file: /root/.carta/log/carta.log
+[2021-12-13 18:43:12.887] [debug] Using command-line settings
+[2021-12-13 18:43:12.887] [info] /home/mingyi/jenkins-carta-backend-dev/e9d3d72/carta-backend/build/carta_backend: Version 3.0.0-beta.2c
+[2021-12-13 18:43:12.892] [info] Listening on port 3006 with top level folder /, starting folder /home/mingyi/carta-test-img, and 4 OpenMP worker threads
+[2021-12-13 18:43:21.742] [debug] 0x5583593e4e40 ::Session (1)
+[2021-12-13 18:43:21.742] [info] Session 1 [127.0.0.1] Connected. Num sessions: 1
+[2021-12-13 18:43:23.044] [debug] [performance] Load 9600x9600 image to cache in 1241.195 ms at 74.251 MPix/s
+[2021-12-13 18:43:23.044] [warning] Session 1: Image has no beam information.
+[2021-12-13 18:43:23.118] [debug] [performance] Fill image histogram in 74.209 ms at 1241.898 MPix/s
+[2021-12-13 18:43:23.124] [debug] [performance] Fill spatial profile in 0.196 ms
+[2021-12-13 18:43:23.137] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 13.239 ms at 4.950 MPix/s
+[2021-12-13 18:43:23.138] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 13.859 ms at 4.729 MPix/s
+[2021-12-13 18:43:23.138] [debug] The compression ratio for tile (layer:2, x:1, y:1) is 6.720.
+[2021-12-13 18:43:23.138] [debug] [performance] Compress 256x256 tile data in 0.961 ms at 68.196 MPix/s
+[2021-12-13 18:43:23.139] [debug] The compression ratio for tile (layer:2, x:0, y:1) is 6.297.
+[2021-12-13 18:43:23.139] [debug] [performance] Compress 256x256 tile data in 0.916 ms at 71.546 MPix/s
+[2021-12-13 18:43:23.142] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 17.844 ms at 3.673 MPix/s
+[2021-12-13 18:43:23.142] [debug] [performance] Mean filter 4096x4096 raster data to 256x256 in 18.066 ms at 3.628 MPix/s
+[2021-12-13 18:43:23.142] [debug] [performance] Mean filter 1408x4096 raster data to 88x256 in 3.972 ms at 5.672 MPix/s
+[2021-12-13 18:43:23.143] [debug] The compression ratio for tile (layer:2, x:1, y:2) is 6.007.
+[2021-12-13 18:43:23.143] [debug] [performance] Compress 256x88 tile data in 0.302 ms at 74.596 MPix/s
+[2021-12-13 18:43:23.143] [debug] The compression ratio for tile (layer:2, x:1, y:0) is 6.302.
+[2021-12-13 18:43:23.143] [debug] [performance] Compress 256x256 tile data in 0.892 ms at 73.471 MPix/s
+[2021-12-13 18:43:23.143] [debug] The compression ratio for tile (layer:2, x:0, y:0) is 6.010.
+[2021-12-13 18:43:23.143] [debug] [performance] Compress 256x256 tile data in 0.893 ms at 73.389 MPix/s
+[2021-12-13 18:43:23.144] [debug] [performance] Mean filter 4096x1408 raster data to 256x88 in 4.533 ms at 4.970 MPix/s
+[2021-12-13 18:43:23.144] [debug] The compression ratio for tile (layer:2, x:2, y:1) is 5.995.
+[2021-12-13 18:43:23.144] [debug] [performance] Compress 88x256 tile data in 0.306 ms at 73.621 MPix/s
+[2021-12-13 18:43:23.144] [debug] [performance] Mean filter 1408x1408 raster data to 88x88 in 1.340 ms at 5.779 MPix/s
+[2021-12-13 18:43:23.144] [debug] The compression ratio for tile (layer:2, x:2, y:2) is 5.290.
+[2021-12-13 18:43:23.144] [debug] [performance] Compress 88x88 tile data in 0.107 ms at 72.374 MPix/s
+[2021-12-13 18:43:23.146] [debug] [performance] Mean filter 1408x4096 raster data to 88x256 in 3.162 ms at 7.125 MPix/s
+[2021-12-13 18:43:23.146] [debug] The compression ratio for tile (layer:2, x:0, y:2) is 5.680.
+[2021-12-13 18:43:23.146] [debug] [performance] Compress 256x88 tile data in 0.304 ms at 74.105 MPix/s
+[2021-12-13 18:43:23.147] [debug] [performance] Mean filter 4096x1408 raster data to 256x88 in 3.478 ms at 6.477 MPix/s
+[2021-12-13 18:43:23.147] [debug] The compression ratio for tile (layer:2, x:2, y:0) is 5.700.
+[2021-12-13 18:43:23.147] [debug] [performance] Compress 88x256 tile data in 0.303 ms at 74.350 MPix/s
+[2021-12-13 18:43:23.147] [debug] [performance] Get tile data group in 23.197 ms
+[2021-12-13 18:43:23.149] [debug] WebSocket closed with code 1005 and message ''.
+[2021-12-13 18:43:23.149] [info] Client 1 [127.0.0.1] Deleted. Remaining sessions: 1
+[2021-12-13 18:43:23.149] [debug] 0x5583593e4e40 ~Session 0
+[2021-12-13 18:43:23.149] [info] No remaining sessions.

@@ -1,0 +1,16 @@
+PASS src/test/PERF_RASTER_TILE_DATA_FITS.test.ts (13.63s)
+  PERF_RASTER_TILE_DATA
+    for "cube_B_09600_z00100.fits"
+      ✓ CARTA is ready & Send a Session: (12ms)
+      Go to "set_QA_performance" folder
+        open the file "set_QA_performance/cube_B/cube_B_09600_z00100.fits"
+          ✓ (Step 1)"cube_B_09600_z00100.fits" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 5000 ms (1371ms)
+          ✓ (Step 1)"cube_B_09600_z00100.fits" SetImageChannels & SetCursor responses should arrive within 5000 ms (60ms)
+          ✓ (Step 2)"cube_B_09600_z00100.fits" RasterTileData responses should arrive within 5000 ms (28ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        13.656s
+Ran all test suites matching /PERF_RASTER_TILE_DATA_FITS.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

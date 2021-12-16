@@ -1,0 +1,23 @@
+PASS src/test/PERF_MOMENTS_CASA.test.ts (37.254s)
+  PERF_LOAD_IMAGE
+    for "S255_IR_sci.spw25.cube.I.pbcor.image"
+      ✓ CARTA is ready & Send a Session: (12ms)
+      Go to "set_QA" folder
+        open the file "set_QA/S255_IR_sci.spw25.cube.I.pbcor.image"
+          ✓ (Step 1)"S255_IR_sci.spw25.cube.I.pbcor.image" OPEN_FILE_ACK and REGION_HISTOGRAM_DATA should arrive within 5000 ms (669ms)
+          ✓ (Step 2)"S255_IR_sci.spw25.cube.I.pbcor.image" Set SET_SPECTRAL_REQUIREMENTS, the responses should arrive within 5000 ms (53ms)
+      Moment generator
+        ✓ (Step 3)"S255_IR_sci.spw25.cube.I.pbcor.image": Receive a series of moment progress within 400000ms (24311ms)
+        ✓ Receive 13 REGION_HISTOGRAM_DATA
+        ✓ Assert MomentResponse.success = true (1ms)
+        ✓ Assert MomentResponse.openFileAcks.length = 13
+        ✓ Assert all MomentResponse.openFileAcks[].success = true (2ms)
+        ✓ Assert all openFileAcks[].fileId > 0 (2ms)
+        ✓ Assert openFileAcks[].fileInfo.name (1ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       10 passed, 10 total
+Snapshots:   0 total
+Time:        37.279s
+Ran all test suites matching /PERF_MOMENTS_CASA.test.ts/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
